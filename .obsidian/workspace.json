@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Datenstrukturen und eff. Algorithmen/Liste.md",
+                "file": "Konzepte Programmierung/Haskell.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Datenstrukturen und eff. Algorithmen/Liste.md",
+                "file": "Konzepte Programmierung/Haskell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Datenstrukturen und eff. Algorithmen/Liste.md",
+                "file": "Konzepte Programmierung/Haskell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Datenstrukturen und eff. Algorithmen/Liste.md"
+                "file": "Konzepte Programmierung/Haskell.md"
               }
             }
           }
@@ -171,16 +171,16 @@
       "command-palette:Befehlspalette öffnen": false
     }
   },
-  "active": "65da221529649c9f",
+  "active": "259aa2c3f5aaf282",
   "lastOpenFiles": [
+    "Datenbanken/Relationales Modell.md",
+    "Datenstrukturen und eff. Algorithmen/Liste.md",
     "MLU",
     "Konzepte Programmierung/ADT Haskell.md",
     "Grundlagen Informatik/ADT.md",
     "Konzepte Programmierung/Haskell.md",
     "Konzepte Programmierung/Prelude.md",
-    "Datenstrukturen und eff. Algorithmen/Liste.md",
     "Datenbanken/Tabellendeklaration.md",
-    "Datenbanken/Relationales Modell.md",
     "Konzepte Programmierung",
     "Grundlagen Informatik",
     "Datenstrukturen und eff. Algorithmen II",
