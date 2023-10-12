@@ -1,0 +1,191 @@
+{
+  "main": {
+    "id": "e1103d3de9a528ae",
+    "type": "split",
+    "children": [
+      {
+        "id": "5b3ecfcfccc77674",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "39091bc469f73002",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Datenstrukturen und eff. Algorithmen/Liste.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "259aa2c3f5aaf282",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Datenstrukturen und eff. Algorithmen/Liste.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "92cec68ee8bc9e1a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Grundlagen Informatik/ADT.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8912bd16a8c056c6",
+    "type": "split",
+    "children": [
+      {
+        "id": "c0232f953a27680d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "65da221529649c9f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c009ee9b0d4f6b40",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a0923eb00350fd9e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "27add30c3514c362",
+    "type": "split",
+    "children": [
+      {
+        "id": "ba47b613b21e0994",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "138b5faa5f2625b1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Datenstrukturen und eff. Algorithmen/Liste.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b9e79866dc8c77c5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Datenstrukturen und eff. Algorithmen/Liste.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "09c05088b1ff8e30",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f01a220ba77418c4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Datenstrukturen und eff. Algorithmen/Liste.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Schnellauswahl öffnen": false,
+      "graph:Graphen-Ansicht öffnen": false,
+      "canvas:Neuen Canvas erstellen": false,
+      "daily-notes:Heutige Notiz öffnen": false,
+      "templates:Vorlage einfügen": false,
+      "command-palette:Befehlspalette öffnen": false
+    }
+  },
+  "active": "65da221529649c9f",
+  "lastOpenFiles": [
+    "MLU",
+    "Konzepte Programmierung/ADT Haskell.md",
+    "Grundlagen Informatik/ADT.md",
+    "Konzepte Programmierung/Haskell.md",
+    "Konzepte Programmierung/Prelude.md",
+    "Datenstrukturen und eff. Algorithmen/Liste.md",
+    "Datenbanken/Tabellendeklaration.md",
+    "Datenbanken/Relationales Modell.md",
+    "Konzepte Programmierung",
+    "Grundlagen Informatik",
+    "Datenstrukturen und eff. Algorithmen II",
+    "Datenbanken",
+    "Datenbank-Programmierung",
+    "Datenstrukturen und eff. Algorithmen"
+  ]
+}

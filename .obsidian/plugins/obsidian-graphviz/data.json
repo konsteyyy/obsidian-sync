@@ -1,0 +1,5 @@
+{
+  "dotPath": "/var/lib/dpkg/info",
+  "renderer": "dot",
+  "imageFormat": "png"
+}
