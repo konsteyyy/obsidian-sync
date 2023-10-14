@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Datenstrukturen und eff. Algorithmen/Liste.md",
+                "file": "Datenstrukturen und eff. Algorithmen/Laufzeit.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,26 +25,62 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Datenstrukturen und eff. Algorithmen/Liste.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "92cec68ee8bc9e1a",
+            "id": "f40ee655bd359ce7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Grundlagen Informatik/ADT.md",
+                "file": "Konzepte Programmierung/Wert- und Funktionsdefinition.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b0f77b7a26f3abdf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Konzepte Programmierung/Wert- und Funktionsdefinition.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d1e0af18a857e3cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Science/Verteilungsfunktion.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "37e523a59a7dc5d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Science/Wahrscheinlichkeitsfunktion.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -110,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Datenstrukturen und eff. Algorithmen/Liste.md",
+                "file": "Data Science/Wahrscheinlichkeitsfunktion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Datenstrukturen und eff. Algorithmen/Liste.md",
+                "file": "Data Science/Wahrscheinlichkeitsfunktion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Datenstrukturen und eff. Algorithmen/Liste.md"
+                "file": "Data Science/Wahrscheinlichkeitsfunktion.md"
               }
             }
           }
@@ -163,22 +199,34 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Schnellauswahl öffnen": false,
-      "graph:Graphen-Ansicht öffnen": false,
-      "canvas:Neuen Canvas erstellen": false,
-      "daily-notes:Heutige Notiz öffnen": false,
-      "templates:Vorlage einfügen": false,
-      "command-palette:Befehlspalette öffnen": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
     }
   },
-  "active": "65da221529649c9f",
+  "active": "37e523a59a7dc5d4",
   "lastOpenFiles": [
-    "MLU",
+    "Bilder/Pasted image 20231014201043.png",
+    "Data Science/Verteilungsfunktion.md",
+    "Data Science/Wahrscheinlichkeitsfunktion.md",
+    "Bilder/Pasted image 20231014200511.png",
+    "Data Science/Moment.md",
+    "Konzepte Programmierung/Wert- und Funktionsdefinition.md",
+    "Untitled",
+    "Datenstrukturen und eff. Algorithmen/Dynamische Programmierung.md",
+    "Datenstrukturen und eff. Algorithmen/Laufzeit.md",
+    "Data Science",
     "Konzepte Programmierung/ADT Haskell.md",
-    "Grundlagen Informatik/ADT.md",
-    "Konzepte Programmierung/Haskell.md",
     "Konzepte Programmierung/Prelude.md",
+    "Grundlagen Informatik/ADT.md",
+    "Bilder/fibonacci_berechnungsbaum.png",
+    "README.md",
     "Datenstrukturen und eff. Algorithmen/Liste.md",
+    "Bilder",
+    "MLU",
     "Datenbanken/Tabellendeklaration.md",
     "Datenbanken/Relationales Modell.md",
     "Konzepte Programmierung",
