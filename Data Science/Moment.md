@@ -1,6 +1,7 @@
 * Spezialfall k=0 := Erwartungswert
 
 $$E(X)= \sum_x x \cdot p_X(x)$$
+[[Summenzeichen]]
 * lässt sich auch verbal folgendermaßen formulieren:
 	* "Das gewichtete arithmetische Mittel aller Ereignisse der Zufallsvariable"
 

@@ -14,3 +14,5 @@ Eigenschaften:
 * linksseitig stetig
 * monoton wachsend
 
+#finished 
+

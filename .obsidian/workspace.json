@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "39091bc469f73002",
+            "id": "f40ee655bd359ce7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,36 +20,12 @@
             }
           },
           {
-            "id": "259aa2c3f5aaf282",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f40ee655bd359ce7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Konzepte Programmierung/Wert- und Funktionsdefinition.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "b0f77b7a26f3abdf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Konzepte Programmierung/Wert- und Funktionsdefinition.md",
+                "file": "Datenstrukturen und eff. Algorithmen/Landau-Symbole.md",
                 "mode": "source",
                 "source": false
               }
@@ -66,21 +42,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "37e523a59a7dc5d4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Science/Wahrscheinlichkeitsfunktion.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -146,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Science/Wahrscheinlichkeitsfunktion.md",
+                "file": "Datenstrukturen und eff. Algorithmen/Laufzeit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Science/Wahrscheinlichkeitsfunktion.md",
+                "file": "Datenstrukturen und eff. Algorithmen/Laufzeit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,16 +149,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Science/Wahrscheinlichkeitsfunktion.md"
+                "file": "Datenstrukturen und eff. Algorithmen/Laufzeit.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -207,24 +170,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "37e523a59a7dc5d4",
+  "active": "f40ee655bd359ce7",
   "lastOpenFiles": [
-    "Bilder/Pasted image 20231014201043.png",
-    "Data Science/Verteilungsfunktion.md",
-    "Data Science/Wahrscheinlichkeitsfunktion.md",
-    "Bilder/Pasted image 20231014200511.png",
-    "Data Science/Moment.md",
-    "Konzepte Programmierung/Wert- und Funktionsdefinition.md",
-    "Untitled",
-    "Datenstrukturen und eff. Algorithmen/Dynamische Programmierung.md",
+    "README.md",
     "Datenstrukturen und eff. Algorithmen/Laufzeit.md",
+    "Datenstrukturen und eff. Algorithmen/Lineare Suche.md",
+    "Datenstrukturen und eff. Algorithmen/Bubblesort.md",
+    "Datenstrukturen und eff. Algorithmen/Binäre Suche.md",
+    "Datenstrukturen und eff. Algorithmen/Quicksort.md",
+    "Datenstrukturen und eff. Algorithmen/Mergesort.md",
+    "Datenstrukturen und eff. Algorithmen/Landau-Symbole.md",
+    "Konzepte Programmierung/Wert- und Funktionsdefinition.md",
+    "Datenstrukturen und eff. Algorithmen/Dynamische Programmierung.md",
+    "Data Science/Summenzeichen.md",
+    "Data Science/Verteilungsfunktion.md",
+    "Data Science/Moment.md",
+    "Datenstrukturen und eff. Algorithmen/Liste.md",
+    "Pasted image 20231015130113.png",
+    "Bilder/Pasted image 20231015130042.png",
+    "Data Science/Wahrscheinlichkeitsfunktion.md",
+    "Konzepte Programmierung/Haskell.md",
+    "Bilder/Pasted image 20231014201043.png",
+    "Bilder/Pasted image 20231014200511.png",
+    "Untitled",
     "Data Science",
     "Konzepte Programmierung/ADT Haskell.md",
     "Konzepte Programmierung/Prelude.md",
     "Grundlagen Informatik/ADT.md",
     "Bilder/fibonacci_berechnungsbaum.png",
-    "README.md",
-    "Datenstrukturen und eff. Algorithmen/Liste.md",
     "Bilder",
     "MLU",
     "Datenbanken/Tabellendeklaration.md",
