@@ -1,3 +1,4 @@
+
 $$F_X: \mathbb{R} \rightarrow [0,1]$$
 $$F_X(t) = P(X<t)$$
 "Die Wahrscheinlichkeit, dass ein Ereignis eintritt, welches kleiner als t ist"
