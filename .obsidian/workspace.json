@@ -8,87 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f40ee655bd359ce7",
+            "id": "cb3b3bd1f72f1c9a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Konzepte Programmierung/ADT Haskell.md",
+                "file": "Data Science/Binomialverteilung.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "3bfa9914f3141eeb",
+            "id": "f41fda56f7c70d89",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Konzepte Programmierung/Auswertestrategien von Termen.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f89c612bc0b31f1f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Konzepte Programmierung/Musterprüfung.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "84f000f37172daa0",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "a5e6ddc6d43e8c70",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Konzepte Programmierung/Musterprüfung.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b0f77b7a26f3abdf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Datenstrukturen und eff. Algorithmen/Landau-Symbole.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d1e0af18a857e3cd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Science/Verteilungsfunktion.md",
+                "file": "Data Science/Summenzeichen.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -154,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Konzepte Programmierung/Musterprüfung.md",
+                "file": "Data Science/Summenzeichen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Konzepte Programmierung/Musterprüfung.md",
+                "file": "Data Science/Summenzeichen.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Konzepte Programmierung/Musterprüfung.md"
+                "file": "Data Science/Summenzeichen.md"
               }
             }
           }
@@ -203,7 +147,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 405.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -215,15 +159,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a5e6ddc6d43e8c70",
+  "active": "f41fda56f7c70d89",
   "lastOpenFiles": [
+    "Data Science/Binomialverteilung.md",
+    "Data Science/Poissonverteilung.md",
     "Data Science/Summenzeichen.md",
     "Data Science/Verteilungsfunktion.md",
+    "Data Science/Untitled.md",
     "Data Science/Moment.md",
+    "Data Science/Linearität Erwartungswert.md",
     "Data Science/Wahrscheinlichkeitsfunktion.md",
-    "Datenstrukturen und eff. Algorithmen/Dynamische Programmierung.md",
-    "Untitled.md",
     "Konzepte Programmierung/Musterprüfung.md",
+    "Datenstrukturen und eff. Algorithmen/Dynamische Programmierung.md",
     "Konzepte Programmierung/Muster.md",
     "Konzepte Programmierung/Haskell.md",
     "Konzepte Programmierung/Wert- und Funktionsdefinition.md",
@@ -249,8 +196,6 @@
     "Bilder/fibonacci_berechnungsbaum.png",
     "Bilder",
     "MLU",
-    "Datenbanken/Tabellendeklaration.md",
-    "Datenbanken/Relationales Modell.md",
     "Konzepte Programmierung",
     "Grundlagen Informatik",
     "Datenstrukturen und eff. Algorithmen II",

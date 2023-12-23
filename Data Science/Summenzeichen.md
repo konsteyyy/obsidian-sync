@@ -5,9 +5,10 @@
    \sum_{{i=a}}^{b} (c \cdot f(i) + d \cdot g(i)) = c \cdot \sum_{{i=a}}^{b} f(i) + d \cdot \sum_{{i=a}}^{b} g(i)
    $$
 
-2. **Teleskopsumme**
+2. **Indexverschiebung**
    $$
-   \sum_{{i=1}}^{n} (a_{i+1} - a_i) = a_{n+1} - a_1
+\sum_{k=1}^{n} f(k) = \sum_{k=0}^{n-1} f(k+1)
+
    $$
 
 3. **Summe von Konstanten**
