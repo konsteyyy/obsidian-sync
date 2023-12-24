@@ -1,12 +1,28 @@
 #### Definition
 **Eine diskrete ZV X mit den Werten $x\in \{ 0,1,...,N\}$ mit $N \in \mathbb{N}$ und den Wahrscheinlichkeiten (s.u) heißt binomialverteilt**
 
+---------
+
+### Erklärung
+* beschreibt die Wahrscheinlichkeit, dass ein bestimmtes Ereignis in einer festgelegten Anzahl von Versuchen auftreten
+* wird verwendet, wenn es in Situationen nur **Erfolg** oder **Misserfolg** gibt
+
+------------
+
+### Beispiel
+Angenommen wir werfen eine faire Münze 5 Mal
+Gesucht: Wahrscheinlichkeit für 3 Mal Kopf
+* $\theta = 0,5$ ... Wahrscheinlichkeit für Kopf
+* $N=5$ ... Anzahl der Würfe
+* $x=3$ ... Anzahl der Erfolge (Kopf)
+* $p_X(3|5,0.5) = \left( \begin{array}{llll} 5\\ 3\\ \end{array} \right) 0.5^3 (1-0.5)^{5-3} = 0.15625 = 15.63\%$
+
 ----------------------- 
 
 ### [[Wahrscheinlichkeitsfunktion]]
 
 $$
-\forall x\in\{0,1,...,N\}, \lambda\in[0,1]:p_X(x|N,\theta) = \left( \begin{array}{llll}
+\forall x\in\{0,1,...,N\}, \theta\in[0,1]:p_X(x|N,\theta) = \left( \begin{array}{llll}
 N\\
 x\\ 
 \end{array} \right) \theta ^x (1-\theta)^{N-x}
