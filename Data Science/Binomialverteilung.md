@@ -5,7 +5,7 @@
 
 ### [[Wahrscheinlichkeitsfunktion]]
 
-$$ \forall x\in\{0,1,...,N\}, \lambda\in[0,1]:p_X(x|N,\theta) = \left( \begin{array}{llll}
+$$\forall x\in\{0,1,...,N\}, \lambda\in[0,1]:p_X(x|N,\theta) = \left( \begin{array}{llll}
 N\\
 x\\ 
 \end{array} \right) \theta ^x (1-\theta)^{N-x}$$

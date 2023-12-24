@@ -5,7 +5,7 @@
 
 ### [[Wahrscheinlichkeitsfunktion]]
 
-$$ \forall x\in\{0,1,...,N\}, \alpha\in \mathbb{R_+}, \beta \in \mathbb{R_+}:p_X(x|N,\theta) = \left( \begin{array}{llll}
+$$\forall x\in\{0,1,...,N\}, \alpha\in \mathbb{R_+}, \beta \in \mathbb{R_+}:p_X(x|N,\theta) = \left( \begin{array}{llll}
 N\\
 x\\ 
 \end{array} \right) \dfrac{B(\alpha +x,\beta+N-x)}{B(\alpha,\beta)}$$
@@ -34,7 +34,6 @@ $$
          &= N \cdot \frac{\alpha \cdot \textcolor{magenta}{\Gamma(\alpha+\beta)}}{(\alpha + \beta)\textcolor{magenta}{\Gamma(\alpha+\beta)}} && |\text{Satz 2. S.19}  \\
          &= N \cdot \frac{\alpha }{(\alpha +\beta )} && |\text{Kürzen} 
 \end{align*}
-
 $$
 
 -------------

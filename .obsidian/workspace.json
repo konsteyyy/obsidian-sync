@@ -20,26 +20,6 @@
             }
           },
           {
-            "id": "acd84102c1ade3f5",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "f41fda56f7c70d89",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Science/Poissonverteilung.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "1ef643194d1420ab",
             "type": "leaf",
             "state": {
@@ -51,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,6 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Data Science/Poissonverteilung.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,6 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Data Science/Poissonverteilung.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +136,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Data Science/Poissonverteilung.md"
+              }
             }
           }
         ],
@@ -175,15 +158,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "acd84102c1ade3f5",
+  "active": "cb3b3bd1f72f1c9a",
   "lastOpenFiles": [
-    "Data Science/Poissonverteilung.md",
+    "Data Science/Moment.md",
     "Data Science/Binomialverteilung.md",
     "Data Science/Beta-Binomialverteilung.md",
+    "Data Science/Poissonverteilung.md",
     "README.md",
     "Untitled.md",
     "Data Science/Summenzeichen.md",
-    "Data Science/Moment.md",
     "Data Science/Verteilungsfunktion.md",
     "Data Science/Untitled.md",
     "Data Science/Linearität Erwartungswert.md",
