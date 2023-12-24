@@ -41,6 +41,7 @@ $$
 $$
 Var(X) = \dfrac{\alpha \theta}{(1-\theta)^2}
 $$
+
 #varianz
 ##### Herleitung:
 $$
