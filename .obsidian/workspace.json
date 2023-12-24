@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "062bca9311169912",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Science/Negative Binomialverteilung.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "1ef643194d1420ab",
             "type": "leaf",
             "state": {
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Science/Beta-Binomialverteilung.md",
+                "file": "Data Science/Negative Binomialverteilung.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Science/Beta-Binomialverteilung.md",
+                "file": "Data Science/Negative Binomialverteilung.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Science/Beta-Binomialverteilung.md"
+                "file": "Data Science/Negative Binomialverteilung.md"
               }
             }
           }
@@ -158,19 +171,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cb3b3bd1f72f1c9a",
+  "active": "062bca9311169912",
   "lastOpenFiles": [
-    "Data Science/Poissonverteilung.md",
-    "Data Science/Beta-Binomialverteilung.md",
     "Data Science/Binomialverteilung.md",
+    "Data Science/Wahrscheinlichkeitsfunktion.md",
+    "Data Science/Verteilungsfunktion.md",
+    "Data Science/Summenzeichen.md",
+    "Data Science/Poissonverteilung.md",
+    "Data Science/Negative Binomialverteilung.md",
+    "Data Science/Beta-Binomialverteilung.md",
     "Data Science/Moment.md",
     "README.md",
-    "Untitled.md",
-    "Data Science/Summenzeichen.md",
-    "Data Science/Verteilungsfunktion.md",
     "Data Science/Untitled.md",
     "Data Science/Linearität Erwartungswert.md",
-    "Data Science/Wahrscheinlichkeitsfunktion.md",
     "Konzepte Programmierung/Musterprüfung.md",
     "Datenstrukturen und eff. Algorithmen/Dynamische Programmierung.md",
     "Konzepte Programmierung/Muster.md",

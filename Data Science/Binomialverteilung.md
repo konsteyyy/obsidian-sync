@@ -26,13 +26,13 @@ $$
 N\\
 x\\
 \end{array} \right) \theta ^x (1-\theta)^{N-x} & | Def. Binomialverteilungswahrscheinlichkeit\\
-&= \sum_{\textcolor{aqua}{x=1}}^Nx\left( \begin{array}{llll}
+&= \sum_{\textcolor{magenta}{x=1}}^Nx\left( \begin{array}{llll}
 N\\
 x\\
 \end{array} \right) \theta ^x (1-\theta)^{N-x} & | Indexverschiebung\ um\ 1\\
-&= \sum_{x=1}^N \textcolor{aqua}x \dfrac{N!}{\textcolor{aqua}{x(x-1)!} (N-x)!} \theta^x (1-\theta)^{N-x} & |x!=x(x-1)!\ und\ kürzen\\
-&= \sum_{x=1}^N \dfrac{N(N-1)!}{(x-1)! ((N-1)-(x-1))!} \theta \theta^{x-1} (1-\theta)^{(N-1)-(x-1)} & |a^x = aa^{x-1} \text{ und } (a-b) = ((a-1)-(b-1))\\
-&= \textcolor{aqua}{N\theta} \sum_{x=1}^N \dfrac{(N-1)!}{(x-1)! ((N-1)-(x-1))!} \theta^{x-1} (1-\theta)^{(N-1)-(x-1)} & | \text{ Faktoren aus der Summe ziehen }\\
+&= \sum_{x=1}^N \textcolor{magenta}x \dfrac{N!}{\textcolor{magenta}{x(x-1)!} (N-x)!} \theta^x (1-\theta)^{N-x} & |x!=x(x-1)!\ und\ kürzen\\
+&= \sum_{x=1}^N \dfrac{\textcolor{magenta}N(N-1)!}{(x-1)! ((N-1)-(x-1))!} \textcolor{magenta}\theta \theta^{x-1} (1-\theta)^{(N-1)-(x-1)} & |a^x = aa^{x-1} \text{ und } (a-b) = ((a-1)-(b-1))\\
+&= {N\theta} \sum_{x=1}^N \dfrac{(N-1)!}{(x-1)! ((N-1)-(x-1))!} \theta^{x-1} (1-\theta)^{(N-1)-(x-1)} & | \text{ Faktoren aus der Summe ziehen }\\
 &= N\theta \sum_{x'=0}^{N'} \dfrac{N'!}{x'! (N'-x')!} \theta^{x'} (1-\theta)^{N'-x'} & |Substitution:\ x'=x-1 <=> x=x'+1 \ und \ N'=N-1\\
 &= N\theta \sum_{x'=0}^{N'} \left( \begin{array}{llll}
 N'\\
@@ -56,16 +56,17 @@ $$
 N\\
 x\\
 \end{array} \right) \theta ^x (1-\theta)^{N-x} & |Def. Binomialverteilungswahrscheinlichkeit\\
-&= \sum_{\textcolor{aqua}{x=1}}^Nx^2\left( \begin{array}{llll}
+&= \sum_{\textcolor{magenta}{x=1}}^Nx^2\left( \begin{array}{llll}
 N\\
 x\\
 \end{array} \right) \theta ^x (1-\theta)^{N-x} & | Indexverschiebung\ um\ 1\\
-&= \sum_{x=1}^N \textcolor{aqua}{x²} \dfrac{N!}{\textcolor{aqua}{x(x-1)!} (N-x)!} \theta^x (1-\theta)^{N-x} & |x!=x(x-1)!\ und\ kürzen\\
+&= \sum_{x=1}^N \textcolor{magenta}{x²} \dfrac{N!}{\textcolor{magenta}{x(x-1)!} (N-x)!} \theta^x (1-\theta)^{N-x} & |x!=x(x-1)!\ und\ kürzen\\
 &= \sum_{x=1}^N x\dfrac{N(N-1)!}{(x-1)! ((N-1)-(x-1))!} \theta \theta^{x-1} (1-\theta)^{(N-1)-(x-1)} & |a^x = aa^{x-1} \text{ und } (a-b) = ((a-1)-(b-1))\\
-&= \textcolor{aqua}{N\theta} \sum_{x=1}^N x\dfrac{(N-1)!}{(x-1)! ((N-1)-(x-1))!} \theta^{x-1} (1-\theta)^{(N-1)-(x-1)} & | \text{ Faktoren aus der Summe ziehen }\\
-&= N\theta \sum_{x'=0}^{N'} \textcolor{aqua}{(x'+1)} \dfrac{N'!}{x'! (N'-x')!} \theta^{x'} (1-\theta)^{N'-x'} & |Substitution:\ x'=x-1 <=> x=x'+1 \ und \ N'=N-1\\
-&= N\theta \left( \sum_{x'=0}^{N'} x' \dfrac{N'!}{x'! (N'-x')!} \theta^{x'} (1-\theta)^{N'-x'} + \textcolor{aqua}{\sum_{x'=0}^{N'} \dfrac{N'!}{x'! (N'-x')!} \theta^{x'} (1-\theta)^{N'-x'}} \right) & |Linearität\ der\ Summation\\
-&= N\theta \left( \textcolor{aqua}{\sum_{x'=0}^{N'} x' \dfrac{N'!}{x'! (N'-x')!} \theta^{x'} (1-\theta)^{N'-x'}} + 1 \right) & |Normiertheit\ der\ Wahrscheinlichkeitsfunktion\\
+&= \textcolor{magenta}{N\theta} \sum_{x=1}^N x\dfrac{(N-1)!}{(x-1)! ((N-1)-(x-1))!} \theta^{x-1} (1-\theta)^{(N-1)-(x-1)} & | \text{ Faktoren aus der Summe ziehen }\\
+&= N\theta \sum_{x'=0}^{N'} \textcolor{magenta}{(x'+1)} \dfrac{N'!}{x'! (N'-x')!} \theta^{x'} (1-\theta)^{N'-x'} & |Substitution:\ x'=x-1 <=> x=x'+1 \ und \ N'=N-1\\
+&= N\theta \left( \sum_{x'=0}^{N'} x' \dfrac{N'!}{x'! (N'-x')!} \theta^{x'} (1-\theta)^{N'-x'} + \textcolor{magenta}{\sum_{x'=0}^{N'} \dfrac{N'!}{x'! (N'-x')!} \theta^{x'} (1-\theta)^{N'-x'}} \right) & |Linearität\ der\ Summation\\
+&= N\theta \left( \sum_{x'=0}^{N'} x' \textcolor{magenta}{\dfrac{N'!}{x'! (N'-x')!} \theta^{x'} (1-\theta)^{N'-x'}} + 1 \right) & |Normiertheit\ der\ Wahrscheinlichkeitsfunktion\\
+&= N\theta \left( \textcolor{magenta}{\sum_{x'=0}^{N'} x' p_{X'}(x'|N',\theta)} + 1 \right) & | Def. Binomialverteilungswahrscheinlichkeit\\
 &= N\theta \left( N'\theta  + 1 \right) & |Def. E(X')\\
 &= N \theta ((N-1)\theta + 1)\\
 &= N\theta(N\theta-\theta+1)\\
