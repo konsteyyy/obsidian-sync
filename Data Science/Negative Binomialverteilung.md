@@ -15,6 +15,7 @@ $$
 $$E(X) = \dfrac{\alpha \theta}{(1-\theta)}$$ #erwartungswert
 
 ##### Herleitung:
+
 $$
 \begin{align*}
     E(X) &= \sum_{x=0}^\infty xp_X(x|\alpha,\theta) & \\
