@@ -13,14 +13,34 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Science/Binomialverteilung.md",
+                "file": "Data Science/Poissonverteilung.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
+            "id": "acd84102c1ade3f5",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
             "id": "f41fda56f7c70d89",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Science/Poissonverteilung.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1ef643194d1420ab",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -98,7 +118,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Science/Summenzeichen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +134,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Science/Summenzeichen.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +155,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Data Science/Summenzeichen.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -159,14 +175,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f41fda56f7c70d89",
+  "active": "acd84102c1ade3f5",
   "lastOpenFiles": [
-    "Data Science/Binomialverteilung.md",
     "Data Science/Poissonverteilung.md",
+    "Data Science/Binomialverteilung.md",
+    "Data Science/Beta-Binomialverteilung.md",
+    "README.md",
+    "Untitled.md",
     "Data Science/Summenzeichen.md",
+    "Data Science/Moment.md",
     "Data Science/Verteilungsfunktion.md",
     "Data Science/Untitled.md",
-    "Data Science/Moment.md",
     "Data Science/Linearität Erwartungswert.md",
     "Data Science/Wahrscheinlichkeitsfunktion.md",
     "Konzepte Programmierung/Musterprüfung.md",
@@ -177,7 +196,6 @@
     "Konzepte Programmierung/Auswertestrategien von Termen.md",
     "Konzepte Programmierung/ADT Haskell.md",
     "Datenstrukturen und eff. Algorithmen/Laufzeit.md",
-    "README.md",
     "Datenstrukturen und eff. Algorithmen/Lineare Suche.md",
     "Datenstrukturen und eff. Algorithmen/Bubblesort.md",
     "Datenstrukturen und eff. Algorithmen/Binäre Suche.md",
@@ -191,8 +209,6 @@
     "Bilder/Pasted image 20231014200511.png",
     "Untitled",
     "Data Science",
-    "Konzepte Programmierung/Prelude.md",
-    "Grundlagen Informatik/ADT.md",
     "Bilder/fibonacci_berechnungsbaum.png",
     "Bilder",
     "MLU",

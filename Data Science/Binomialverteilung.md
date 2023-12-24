@@ -5,14 +5,14 @@
 
 ### [[Wahrscheinlichkeitsfunktion]]
 
-$$ \forall x\in{0,1,...,N}, \lambda\in[0,1]:p_X(x|N,\theta) = \left( \begin{array}{llll}
+$$ \forall x\in\{0,1,...,N\}, \lambda\in[0,1]:p_X(x|N,\theta) = \left( \begin{array}{llll}
 N\\
 x\\ 
 \end{array} \right) \theta ^x (1-\theta)^{N-x}$$
 ----------------
 ### Erwartungswert/[[Moment]]
 
-$$E[X] = N \theta$$
+$$E[X] = N \theta$$ #erwartungswert
 
 ##### Herleitung:
 $$
@@ -41,8 +41,36 @@ $$
 
 -------------
 ### Varianz
-
-
-
+$$
+Var(X) = N\theta(1-\theta)
+$$
+##### Herleitung:
+$$
+\begin{align*}
+    E(X^2) &= \sum_{x=0}^Nx^2p_X(x|N,\theta)  \\
+    &= \sum_{x=0}^Nx^2\left( \begin{array}{llll}
+N\\
+x\\
+\end{array} \right) \theta ^x (1-\theta)^{N-x} & |Def. Binomialverteilungswahrscheinlichkeit\\
+&= \sum_{\textcolor{aqua}{x=1}}^Nx^2\left( \begin{array}{llll}
+N\\
+x\\
+\end{array} \right) \theta ^x (1-\theta)^{N-x} & | Indexverschiebung\ um\ 1\\
+&= \sum_{x=1}^N \textcolor{aqua}{x²} \dfrac{N!}{\textcolor{aqua}{x(x-1)!} (N-x)!} \theta^x (1-\theta)^{N-x} & |x!=x(x-1)!\ und\ kürzen\\
+&= \sum_{x=1}^N x\dfrac{N(N-1)!}{(x-1)! ((N-1)-(x-1))!} \theta \theta^{x-1} (1-\theta)^{(N-1)-(x-1)} & |a^x = aa^{x-1} \text{ und } (a-b) = ((a-1)-(b-1))\\
+&= \textcolor{aqua}{N\theta} \sum_{x=1}^N x\dfrac{(N-1)!}{(x-1)! ((N-1)-(x-1))!} \theta^{x-1} (1-\theta)^{(N-1)-(x-1)} & | \text{ Faktoren aus der Summe ziehen }\\
+&= N\theta \sum_{x'=0}^{N'} \textcolor{aqua}{(x'+1)} \dfrac{N'!}{x'! (N'-x')!} \theta^{x'} (1-\theta)^{N'-x'} & |Substitution:\ x'=x-1 <=> x=x'+1 \ und \ N'=N-1\\
+&= N\theta \left( \sum_{x'=0}^{N'} x' \dfrac{N'!}{x'! (N'-x')!} \theta^{x'} (1-\theta)^{N'-x'} + \textcolor{aqua}{\sum_{x'=0}^{N'} \dfrac{N'!}{x'! (N'-x')!} \theta^{x'} (1-\theta)^{N'-x'}} \right) & |Linearität\ der\ Summation\\
+&= N\theta \left( \textcolor{aqua}{\sum_{x'=0}^{N'} x' \dfrac{N'!}{x'! (N'-x')!} \theta^{x'} (1-\theta)^{N'-x'}} + 1 \right) & |Normiertheit\ der\ Wahrscheinlichkeitsfunktion\\
+&= N\theta \left( N'\theta  + 1 \right) & |Def. E(X')\\
+&= N \theta ((N-1)\theta + 1)\\
+&= N\theta(N\theta-\theta+1)\\
+&= N^2 \theta^2-N\theta^2+N\theta\\
+Var(X)= E(X^2)-E^2(X) &=N^2 \theta^2-N\theta^2+N\theta - N^2\theta^2 & |Verschiebungssatz\\
+&=N\theta - N\theta^2\\
+&=N\theta ( 1-\theta)
+\end{align*}
+$$
+#varianz
 
 #unfinished 
