@@ -11,6 +11,7 @@ N\\
 x\\ 
 \end{array} \right) \theta ^x (1-\theta)^{N-x}
 $$
+
 ----------------
 ### Erwartungswert/[[Moment]]
 
