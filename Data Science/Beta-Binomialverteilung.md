@@ -9,6 +9,7 @@ $$\forall x\in\{0,1,...,N\}, \alpha\in \mathbb{R_+}, \beta \in \mathbb{R_+}:p_X(
 N\\
 x\\ 
 \end{array} \right) \dfrac{B(\alpha +x,\beta+N-x)}{B(\alpha,\beta)}$$
+
 ----------------
 ### Erwartungswert/[[Moment]]
 
@@ -38,13 +39,17 @@ $$
 
 -------------
 ### Varianz
+
 $$
 Var(X) = \dfrac{N\alpha\beta}{(\alpha+\beta)^2} \dfrac{N+\alpha+\beta}{1+\alpha+\beta}
 $$
+
 ##### Herleitung:
+
 $$
 
 $$
+
 #varianz
 
 #unfinished 

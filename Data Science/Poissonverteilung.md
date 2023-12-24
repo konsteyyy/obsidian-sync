@@ -2,6 +2,7 @@
 **Eine diskrete ZV X mit den Werten $x \in \mathbb{N}$ und den Wahrscheinlichkeiten (s.u) heißt poissonverteilt
 
 ### [[Wahrscheinlichkeitsfunktion]]
+
 $$\forall \lambda \in \mathbb{R}_+, x \in \mathbb{N} : p_X(x|\lambda) = x \dfrac{\lambda^x}{x!} e^{-\lambda}$$
 
 ----------------
@@ -9,6 +10,7 @@ $$\forall \lambda \in \mathbb{R}_+, x \in \mathbb{N} : p_X(x|\lambda) = x \dfrac
 ### Erwartungswert/[[Moment]]
 
 $$E(X) = \lambda$$
+
 #erwartungswert
 #### Herleitung:
 
@@ -23,11 +25,14 @@ E(X) &=\sum_{x=0}^{\infty} x \dfrac{\lambda^x}{x!} e^{-\lambda} && |Def.\ p_X(x|
 &=\lambda && |\sum_{x'=0}^\infty p_{X'}(x'|\lambda) = 1
 \end{align*}
 $$
+
 -----------
 ### Varianz
+
 $$
 Var(X) = \lambda
 $$
+
 #### Herleitung:
 
 $$
@@ -44,6 +49,7 @@ Var(X) = E(X²)-E²(X) &= \lambda²+\lambda-\lambda²\\
 &= \lambda
 \end{align*}
 $$
+
 #varianz
 
 #unfinished 
