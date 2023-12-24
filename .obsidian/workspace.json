@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Science/Poissonverteilung.md",
+                "file": "Data Science/Beta-Binomialverteilung.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Science/Poissonverteilung.md",
+                "file": "Data Science/Beta-Binomialverteilung.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Science/Poissonverteilung.md",
+                "file": "Data Science/Beta-Binomialverteilung.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Science/Poissonverteilung.md"
+                "file": "Data Science/Beta-Binomialverteilung.md"
               }
             }
           }
@@ -160,9 +160,9 @@
   },
   "active": "cb3b3bd1f72f1c9a",
   "lastOpenFiles": [
+    "Data Science/Poissonverteilung.md",
     "Data Science/Beta-Binomialverteilung.md",
     "Data Science/Binomialverteilung.md",
-    "Data Science/Poissonverteilung.md",
     "Data Science/Moment.md",
     "README.md",
     "Untitled.md",

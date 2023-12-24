@@ -37,7 +37,7 @@ $$
 
 $$
 \begin{align*}
-E(X) &=\sum_{x=0}^{\infty} x² \dfrac{\lambda^x}{x!} e^{-\lambda} && |Def.\ p_X(x|\lambda)\ Poissonverteilung\\
+E(X^2) &=\sum_{x=0}^{\infty} x² \dfrac{\lambda^x}{x!} e^{-\lambda} && |Def.\ p_X(x|\lambda)\ Poissonverteilung\\
 &=\sum_{\textcolor{aqua}{x=1}}^{\infty} x² \dfrac{\lambda^x}{x!} e^{-\lambda} && |Indexverschiebung\ um\ 1\\
 &=\sum_{x=1}^{\infty} x² \dfrac{\textcolor{aqua}\lambda \lambda^{x-1}}{\textcolor{aqua}x(x-1)!} e^{-\lambda}
  && | Fakultätsregel\ a!=a(a-1)!\\

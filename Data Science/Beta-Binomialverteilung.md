@@ -16,6 +16,7 @@ x\\
 $$E(X) = \dfrac{N \alpha}{\alpha+\beta}$$ #erwartungswert
 
 ##### Herleitung:
+
 $$
 \begin{align*}
     E(X) &= \sum\limits_{x} x \cdot p_X(x) && |\text{Def. Erwartungswert} \\
