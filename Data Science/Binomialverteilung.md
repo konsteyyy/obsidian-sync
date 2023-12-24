@@ -44,6 +44,7 @@ $$
 $$
 Var(X) = N\theta(1-\theta)
 $$
+#varianz
 ##### Herleitung:
 $$
 \begin{align*}
@@ -71,6 +72,7 @@ Var(X)= E(X^2)-E^2(X) &=N^2 \theta^2-N\theta^2+N\theta - N^2\theta^2 & |Verschie
 &=N\theta ( 1-\theta)
 \end{align*}
 $$
-#varianz
+
+---------------
 
 #unfinished 
