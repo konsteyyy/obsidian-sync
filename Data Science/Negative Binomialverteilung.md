@@ -32,7 +32,7 @@ $$
 &= \dfrac{\alpha\theta}{1-\theta} \sum_{x'=0}^\infty \dfrac{\Gamma(\alpha'+x')}{\Gamma(\alpha')\textcolor{magenta}{x'!}} \theta^{x'} (1-\theta)^{{\alpha'}} & | \forall x \in \mathbb N: \Gamma(x+1)=x!\\
 &= \dfrac{\alpha\theta}{1-\theta} \sum_{x'=0}^\infty \textcolor{magenta}{\dfrac{\Gamma(\alpha'+x')}{\Gamma(\alpha')\Gamma(x')} \theta^{x'} (1-\theta)^{{\alpha'}}}&|Def. Negative\ Binomialverteilungswahrscheinlichkeiten\\
 &= \dfrac{\alpha\theta}{1-\theta} \sum_{x'=0}^\infty p_{X'}(x'|\alpha',\theta) & |Normiertheit\ Wahrscheinlichkeitsfunktionen \\
-&= \dfrac{\alpha\theta}{1-\theta}
+&= \dfrac{\alpha\theta}{1-\theta} &
 \end{align*}
 $$
 
