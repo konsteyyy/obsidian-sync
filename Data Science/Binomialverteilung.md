@@ -47,6 +47,7 @@ $$
 $$
 Var(X) = N\theta(1-\theta)
 $$
+
 #varianz
 ##### Herleitung:
 $$
