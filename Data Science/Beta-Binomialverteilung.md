@@ -42,6 +42,7 @@ $$\begin{align*}
 $$
 Var(X) = \dfrac{N\alpha\beta}{(\alpha+\beta)^2} \dfrac{N+\alpha+\beta}{1+\alpha+\beta}
 $$
+
 #varianz
 ##### Herleitung:
 
