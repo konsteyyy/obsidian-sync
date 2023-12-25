@@ -50,7 +50,7 @@ $$
 ##### Herleitung:
 
 $$
- \begin{align*}
+\begin{align*}
     E(X^2) &=\int^{\infty}_0t^2 \cdot p_X(t|\alpha,\beta) dt & | \ Def.\ E(X) \\
     &= \int^{\infty}_0t^2 \cdot \beta^{\alpha} \cdot \Gamma^{-1}(\alpha) t^{\alpha-1} \cdot e^{-\beta t} dt & | \ Def. \ Gammaverteilungswahrscheinlichkeit\\
     &=\dfrac{\beta^{\alpha}}{\Gamma(\alpha)}\int^{\infty}_0t^2 \cdot t^{\alpha-1} \cdot e^{-\beta t} dt & |\ Linearität \ Konstanten \\
@@ -66,7 +66,8 @@ $$
     &= \dfrac{\alpha^2+\alpha-\alpha^2}{\beta^2} \\
     &=  \dfrac{\alpha}{\beta^2}
 \end{align*}
-$$ 
+$$
+
 ---------------
 
 #unfinished 
