@@ -41,15 +41,12 @@ $$
 $$
 
 -------------
-
 ### Varianz
-
 $$
 Var(X) = \dfrac{\alpha \beta}{(\alpha+\beta+1)(\alpha+\beta)^2}
 $$
 
 #varianz
-
 ##### Herleitung:
 
 $$
