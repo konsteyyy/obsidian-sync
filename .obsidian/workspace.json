@@ -25,7 +25,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Science/Negative Binomialverteilung.md",
+                "file": "Data Science/Beta-Binomialverteilung.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2c054689b1989d45",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Science/Betaverteilung.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f94993607fdafc50",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Science/Beta-Binomialverteilung.md",
                 "mode": "source",
                 "source": false
               }
@@ -44,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Science/Negative Binomialverteilung.md",
+                "file": "Data Science/Beta-Binomialverteilung.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Science/Negative Binomialverteilung.md",
+                "file": "Data Science/Beta-Binomialverteilung.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Science/Negative Binomialverteilung.md"
+                "file": "Data Science/Beta-Binomialverteilung.md"
               }
             }
           }
@@ -171,17 +195,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "062bca9311169912",
+  "active": "f94993607fdafc50",
   "lastOpenFiles": [
+    "Data Science/Gammaverteilung.md",
+    "Data Science/Betaverteilung.md",
+    "Data Science/Poissonverteilung.md",
+    "Data Science/Binomialverteilung.md",
     "Data Science/Beta-Binomialverteilung.md",
     "Data Science/Negative Binomialverteilung.md",
-    "Data Science/Binomialverteilung.md",
-    "Data Science/Poissonverteilung.md",
     "Data Science/Moment.md",
     "Data Science/Wahrscheinlichkeitsfunktion.md",
     "Data Science/Verteilungsfunktion.md",
     "Data Science/Summenzeichen.md",
-    "README.md",
+    "Data Science/README.md",
     "Data Science/Untitled.md",
     "Data Science/Linearität Erwartungswert.md",
     "Konzepte Programmierung/Musterprüfung.md",
@@ -197,8 +223,6 @@
     "Datenstrukturen und eff. Algorithmen/Binäre Suche.md",
     "Datenstrukturen und eff. Algorithmen/Quicksort.md",
     "Datenstrukturen und eff. Algorithmen/Mergesort.md",
-    "Datenstrukturen und eff. Algorithmen/Landau-Symbole.md",
-    "Datenstrukturen und eff. Algorithmen/Liste.md",
     "Bilder/Pasted image 20231015130113.png",
     "Bilder/Pasted image 20231015130042.png",
     "Bilder/Pasted image 20231014201043.png",
