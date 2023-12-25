@@ -49,7 +49,7 @@ $$
 #varianz
 ##### Herleitung:
 
-$$
+$$ 
 \begin{align*}
     E(X^2) &= \int_{0}^{1}t^2p_X(t|\alpha, \beta)dt & | \ Def. \ E(X)\\
     &=\int_{0}^{1}t^2 \cdot B^{-1}(\alpha,\beta)t^{\alpha-1}(1-t)^{\beta-1}dt & | \ Def. \ p_X(t|\alpha,\beta)\\
@@ -67,7 +67,7 @@ $$
 	&= \dfrac{(\alpha^2+\alpha)(\alpha+\beta)- \alpha^2(\alpha+\beta+1)}{(\alpha+\beta+1)(\alpha+\beta)^2} & |Kürzen\\
 	&= \dfrac{\alpha^3+\alpha^2\beta+\alpha^2+\alpha \beta - (\alpha^3+\alpha^2\beta+\alpha^2)}{(\alpha+\beta+1)(\alpha+\beta)^2} & |Ausmultiplizieren\ und\ Kürzen\\
 	&= \dfrac{\alpha \beta}{(\alpha+\beta+1)(\alpha+\beta)^2}
-\end{align*}
+\end{align*} 
 $$ 
 ---------------
 
