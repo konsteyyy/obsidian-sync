@@ -25,8 +25,7 @@ $$
 $$E(X) = \dfrac{\alpha}{\alpha + \beta}$$ #erwartungswert
 
 ##### Herleitung:
-$$
-\begin{align*}
+$$\begin{align*}
     E(X) &= \int_{0}^{1}tp_X(t|\alpha, \beta)dt & | \; Def. \; E(X)\\
     &=\int_{0}^{1}t \cdot B^{-1}(\alpha,\beta)t^{\alpha-1}(1-t)^{\beta-1}dt & | \; Def. \;p_X(t|\alpha,\beta)\\
     &= B^{-1}(\alpha,\beta)\int_{0}^{1}t \cdot t^{\alpha-1}(1-t)^{\beta-1}dt & | \;Linearität\; Konstanten\\
@@ -37,8 +36,7 @@ $$
     &= \dfrac{\Gamma(\alpha+\beta)}{\Gamma(\alpha)} \cdot \dfrac{\alpha\Gamma(\alpha)}{\Gamma(\alpha+\beta+1)} & |\; Satz \; Gammafunktion \; über \; Reelle \; Zahlen\\
     &= \Gamma(\alpha+\beta) \cdot \dfrac{\alpha}{\Gamma(\alpha+\beta+1)} &| \; Kürzen\\
     &= \dfrac{\alpha}{\alpha + \beta}& | \; Kürzen\\
-\end{align*} 
-$$
+\end{align*}$$
 
 -------------
 ### Varianz
