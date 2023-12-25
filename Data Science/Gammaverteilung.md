@@ -52,7 +52,7 @@ $$
 $$
  \begin{align*}
     E(X^2) &=\int^{\infty}_0t^2 \cdot p_X(t|\alpha,\beta) dt & | \ Def.\ E(X) \\
-    &= \int^{\infty}_0t^2 \cdot \beta^{\alpha} \cdot \Gamma^{-1}(\alpha) t^{\alpha-1} \cdot e^{-\beta t} dt & | \;Def. \ Gammaverteilungswahrscheinlichkeit\\
+    &= \int^{\infty}_0t^2 \cdot \beta^{\alpha} \cdot \Gamma^{-1}(\alpha) t^{\alpha-1} \cdot e^{-\beta t} dt & | \ Def. \ Gammaverteilungswahrscheinlichkeit\\
     &=\dfrac{\beta^{\alpha}}{\Gamma(\alpha)}\int^{\infty}_0t^2 \cdot t^{\alpha-1} \cdot e^{-\beta t} dt & |\ Linearität \ Konstanten \\
     &=\dfrac{\beta^{\alpha}}{\Gamma(\alpha)}\int^{\infty}_0 t^{\textcolor{magenta}{(\alpha+2)-1}} \cdot e^{-\beta t} dt & |\ t \cdot t^{\alpha-1}=t^{(\alpha+1)-1}\\
     &=\dfrac{\beta^{\alpha}}{\Gamma(\alpha)}\int^{\infty}_0 (\dfrac{u}{\beta})^{(\alpha+2)-1} \cdot e^{-u} \frac{du}{\beta} & |\ Substitution\;u=\beta t <=> t= \dfrac{u}{\beta}\\
