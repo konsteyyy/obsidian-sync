@@ -41,13 +41,17 @@ $$
 $$
 
 -------------
+
 ### Varianz
+
 $$
 Var(X) = \dfrac{\alpha \beta}{(\alpha+\beta+1)(\alpha+\beta)^2}
 $$
 
 #varianz
+
 ##### Herleitung:
+
 $$
 \begin{align*}
     E(X^2) &= \int_{0}^{1}t^2p_X(t|\alpha, \beta)dt & | \ Def. \ E(X)\\
