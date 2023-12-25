@@ -18,7 +18,7 @@ $$E(X) = \dfrac{N \alpha}{\alpha+\beta}$$ #erwartungswert
 ##### Herleitung:
 
 $$\begin{align*}
-    E(X) &= \sum\limits_{x} x \cdot p_X(x) && |\text{Def. Erwartungswert} \\
+     E(X) &= \sum\limits_{x} x \cdot p_X(x) && |\text{Def. Erwartungswert} \\
 	 &= \sum\limits_{x=0}^{N} x \cdot p_X(x|N,\alpha,\beta) && |\text{Def. Wahrsch. Beta-Binom. S.19} \\
 	 &= \sum\limits_{x=0}^{N} x \cdot \left( \begin{array}{c} N \\ x\end{array}\right) \frac{B(\alpha +x, \beta +N-x)}{B(\alpha,\beta)}&& |\text{Def. Beta-Binom. S.19} \\
 	 &= \sum\limits_{x=0}^{N} x \cdot \left( \begin{array}{c} N \\ x\end{array}\right) \left(\int_{0}^{1} t^{\alpha +x-1} \cdot (1-t)^{\beta +N-x-1} dt \right)\cdot \frac{1}{B(\alpha,\beta)}&& |\text{Def. Betafunktion S.19} \\
