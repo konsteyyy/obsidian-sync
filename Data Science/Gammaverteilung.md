@@ -28,10 +28,10 @@ $$E(X) = \dfrac{\alpha}{\beta}$$ #erwartungswert
 $$
  \begin{align*}
     E(X) &=\int^{\infty}_0t \cdot p_X(t|\alpha,\beta) dt & | \ Def.\ E(X) \\
-    &= \int^{\infty}_0t \cdot \beta^{\alpha} \cdot \Gamma^{-1}(\alpha) t^{\alpha-1} \cdot e^{-\beta t} dt & | \;Def. \ Gammaverteilungswahrscheinlichkeit\\
+    &= \int^{\infty}_0t \cdot \beta^{\alpha} \cdot \Gamma^{-1}(\alpha) t^{\alpha-1} \cdot e^{-\beta t} dt & | \ Def. \ Gammaverteilungswahrscheinlichkeit\\
     &=\dfrac{\beta^{\alpha}}{\Gamma(\alpha)}\int^{\infty}_0t \cdot t^{\alpha-1} \cdot e^{-\beta t} dt & |\ Linearität \;Konstanten \\
     &=\dfrac{\beta^{\alpha}}{\Gamma(\alpha)}\int^{\infty}_0 t^{\textcolor{magenta}{(\alpha+1)-1}} \cdot e^{-\beta t} dt & |\ t \cdot t^{\alpha-1}=t^{(\alpha+1)-1}\\
-    &=\dfrac{\beta^{\alpha}}{\Gamma(\alpha)}\int^{\infty}_0 (\dfrac{u}{\beta})^{(\alpha+1)-1} \cdot e^{-u} \frac{du}{\beta} & |\ Substitution\;u=\beta t <=> t= \dfrac{u}{\beta}\\
+    &=\dfrac{\beta^{\alpha}}{\Gamma(\alpha)}\int^{\infty}_0 (\dfrac{u}{\beta})^{(\alpha+1)-1} \cdot e^{-u} \frac{du}{\beta} & |\ Substitution\ u=\beta t <=> t= \dfrac{u}{\beta}\\
     &=\dfrac{\beta^{\alpha}}{\Gamma(\alpha)}\int^{\infty}_0 \dfrac{u^{(\alpha+1)-1}}{\beta^{(\alpha+1)-1}} \cdot e^{-u} \frac{du}{\beta} & |\ Potenzgesetz\ Division\\
     &=\dfrac{\beta^{\alpha}}{\Gamma(\alpha)\textcolor{magenta}{\beta^{\alpha}}}\int^{\infty}_0 u^{(\alpha+1)-1} \cdot e^{-u} \frac{du}{\beta} & |\ Linearität\ Konstanten\\
     &=\dfrac{\beta^{\alpha}}{\Gamma(\alpha)\beta^{\alpha}} \frac{\Gamma(\alpha+1)}{\beta} & |\ Def. \ Gammafunktion\\
