@@ -48,6 +48,7 @@ $$
 
 #varianz
 ##### Herleitung:
+
 $$
  \begin{align*}
     E(X^2) &=\int^{\infty}_0t^2 \cdot p_X(t|\alpha,\beta) dt & | \; Def.\; E(X) \\
