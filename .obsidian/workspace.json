@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Science/Gammaverteilung.md",
+                "file": "Data Science/Betaverteilung.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Science/Gammaverteilung.md",
+                "file": "Data Science/Betaverteilung.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Science/Gammaverteilung.md",
+                "file": "Data Science/Betaverteilung.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Science/Gammaverteilung.md"
+                "file": "Data Science/Betaverteilung.md"
               }
             }
           }
@@ -197,8 +197,8 @@
   },
   "active": "f94993607fdafc50",
   "lastOpenFiles": [
-    "Data Science/Binomialverteilung.md",
     "Data Science/Gammaverteilung.md",
+    "Data Science/Binomialverteilung.md",
     "Data Science/Betaverteilung.md",
     "Data Science/Beta-Binomialverteilung.md",
     "Data Science/Poissonverteilung.md",

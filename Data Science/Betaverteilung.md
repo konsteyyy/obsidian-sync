@@ -66,7 +66,7 @@ $$
 	&= \dfrac{(\alpha^2+\alpha)(\alpha+\beta)- \alpha^2(\alpha+\beta+1)}{(\alpha+\beta+1)(\alpha+\beta)^2} & |Kürzen\\
 	&= \dfrac{\alpha^3+\alpha^2\beta+\alpha^2+\alpha \beta - (\alpha^3+\alpha^2\beta+\alpha^2)}{(\alpha+\beta+1)(\alpha+\beta)^2} & |Ausmultiplizieren\ und\ Kürzen\\
 	&= \dfrac{\alpha \beta}{(\alpha+\beta+1)(\alpha+\beta)^2}
-\end{align*} 
+\end{align*}
 $$ 
 ---------------
 
