@@ -26,15 +26,10 @@ $$
 	 &= \sum\limits_{x=0}^{N} x \cdot \left( \begin{array}{c} N \\ x\end{array}\right) \left(\int_{0}^{1} t^{\alpha-1} \cdot t^x \cdot (1-t)^{\beta-1} \cdot (1-t)^{N-x} dt \right)\cdot \frac{1}{B(\alpha,\beta)}&& |\text{Umformen} \\
 	 &= \left( \int_{0}^{1} \textcolor{magenta}{\sum\limits_{x=0}^{N} x \cdot \left( \begin{array}{c} N \\ x\end{array}\right) \cdot t^x \cdot (1-t)^{N-x}} \cdot t^{\alpha-1} \cdot (1-t)^{\beta-1} dt\right)\cdot \frac{1}{B(\alpha,\beta)}&& |\text{Umordnen} \\
 	 &= \left( \int_{0}^{1} N\cdot t \cdot t^{\alpha-1} \cdot (1-t)^{\beta-1} dt\right)\cdot \frac{1}{B(\alpha,\beta)}&& |\text{$E(X)$ Binomialverteilung} \\
-	 &= N \cdot \left( \int_{0}^{1} t \cdot t^{\alpha-1} \cdot (1-t)^{\beta-1} dt\right)\cdot \frac{1}{B(\alpha,\beta)}&& |\text{Konstanten herausziehen} \\
-	 &= N \cdot \left( \int_{0}^{1}  t^{(\alpha+1)-1} \cdot (1-t)^{\beta-1} dt\right)\cdot \frac{1}{B(\alpha,\beta)}&& |\text{Potenzgesetze} \\
-	 &= N \cdot \frac{B(\alpha+1,\beta)}{B(\alpha,\beta)}&& |\text{Betafunktion, univar. S.19} \\
-	 &= N \cdot \frac{\Gamma(\alpha+1)\cdot \textcolor{magenta}{\Gamma(\beta)}}{\Gamma(\alpha +1+\beta)} \cdot \frac{\Gamma(\alpha+\beta)}{\Gamma(\alpha)\cdot \textcolor{magenta}{\Gamma(\beta)}}&& |\text{Satz 3 S.19} \\
-	 &= N \cdot \frac{\Gamma(\alpha+1) \cdot \Gamma(\alpha+\beta)}{\Gamma(\alpha +1+\beta)\cdot \Gamma(\alpha)} && |\text{Kürzen} \\
-	 &= N \cdot \frac{\alpha\textcolor{magenta}{\Gamma(\alpha)} \cdot \Gamma(\alpha+\beta)}{\Gamma(\alpha +1+\beta)\cdot \textcolor{magenta}{\Gamma(\alpha)}} && |\text{Satz 2 S. 19} \\
-	 &= N \cdot \frac{\alpha \cdot \Gamma(\alpha+\beta)}{\Gamma(\alpha +1+\beta)} && |\text{Kürzen} \\
-	 &= N \cdot \frac{\alpha \cdot \textcolor{magenta}{\Gamma(\alpha+\beta)}}{(\alpha + \beta)\textcolor{magenta}{\Gamma(\alpha+\beta)}} && |\text{Satz 2. S.19}  \\
-	 &= N \cdot \frac{\alpha }{(\alpha +\beta )} && |\text{Kürzen} 
+	 &= N \cdot\textcolor{magenta}{ \left( \int_{0}^{1} t \cdot B^{-1}(\alpha,\beta) t^{\alpha-1} \cdot (1-t)^{\beta-1} dt\right)} && |\text{N herausziehen und } B^{-1}(\alpha,\beta)\ reinziehen \\
+	 &= \frac{N\alpha }{\alpha +\beta } && | E(X)\ Betaverteilung \\
+	 
+	 
 \end{align*}
 $$
 
@@ -49,7 +44,30 @@ $$
 ##### Herleitung:
 
 $$
-test
+\begin{align*}
+    E(X^2) &= \sum\limits_{x} x^2 \cdot p_X(x) && |\text{Def. Erwartungswert} \\
+	&= \sum\limits_{x=0}^{N} x^2 \cdot p_X(x|N,\alpha,\beta) && |\text{Def. Wahrsch. Beta-Binom. S.19} \\
+	&= \sum\limits_{x=0}^{N} x^2 \cdot \left( \begin{array}{c} N \\ x\end{array}\right) \frac{B(\alpha +x, \beta +N-x)}{B(\alpha,\beta)}&& |\text{Def. Beta-Binom. S.19} \\
+	&= \sum\limits_{x=0}^{N} x^2 \cdot \left( \begin{array}{c} N \\ x\end{array}\right) \left(\int_{0}^{1} t^{\alpha +x-1} \cdot (1-t)^{\beta +N-x-1} dt \right)\cdot \frac{1}{B(\alpha,\beta)}&& |\text{Def. Betafunktion S.19} \\
+	&= \sum\limits_{x=0}^{N} x^2 \cdot \left( \begin{array}{c} N \\ x\end{array}\right) \left(\int_{0}^{1} t^{\alpha-1} \cdot t^x \cdot (1-t)^{\beta-1} \cdot (1-t)^{N-x} dt \right)\cdot \frac{1}{B(\alpha,\beta)}&& |\text{Umformen} \\
+	&= \left( \int_{0}^{1} \textcolor{magenta}{\sum\limits_{x=0}^{N} x^2 \cdot \left( \begin{array}{c} N \\ x\end{array}\right) \cdot t^x \cdot (1-t)^{N-x}} \cdot t^{\alpha-1} \cdot (1-t)^{\beta-1} dt\right)\cdot \frac{1}{B(\alpha,\beta)}&& |\text{Umordnen} \\
+	&= \left( \int_{0}^{1} (N^2t^2-Nt^2+Nt)  \cdot t^{\alpha-1} \cdot (1-t)^{\beta-1} dt\right)\cdot \frac{1}{B(\alpha,\beta)}&& |\text{$E(X^2)$ Binomialverteilung} \\
+	&= \left( \int_{0}^{1} N(Nt^2-t^2+t)  \cdot t^{\alpha-1} \cdot (1-t)^{\beta-1} dt\right)\cdot \frac{1}{B(\alpha,\beta)} && |Ausklammern\\
+	&= N\left( \int_{0}^{1} (Nt^2-t^2+t)  \cdot B^{-1}(\alpha,\beta)t^{\alpha-1} \cdot (1-t)^{\beta-1} dt\right) && |Konstante\ rausziehen\\
+	&= N\left( \int_{0}^{1} Nt^2  \cdot B^{-1}(\alpha,\beta)t^{\alpha-1} \cdot (1-t)^{\beta-1} dt-\int_{0}^{1} t^2  \cdot B^{-1}(\alpha,\beta)t^{\alpha-1} \cdot (1-t)^{\beta-1} dt+ \textcolor{magenta}{\int_{0}^{1} t  \cdot B^{-1}(\alpha,\beta)t^{\alpha-1} \cdot (1-t)^{\beta-1} dt}\right)&&|Linearität\ Integrale\\
+	&= N\left( \int_{0}^{1} Nt^2  \cdot B^{-1}(\alpha,\beta)t^{\alpha-1} \cdot (1-t)^{\beta-1} dt-\textcolor{magenta}{\int_{0}^{1} t^2  \cdot B^{-1}(\alpha,\beta)t^{\alpha-1} \cdot (1-t)^{\beta-1} dt}+\dfrac{\alpha}{\alpha+\beta}\right)&&|E(X)\ Betaverteilung\\
+	&= N\left( \int_{0}^{1} Nt^2  \cdot B^{-1}(\alpha,\beta)t^{\alpha-1} \cdot (1-t)^{\beta-1} dt-\dfrac{\alpha^2+\alpha}{(\alpha+\beta+1)(\alpha+\beta)}+\dfrac{\alpha}{\alpha+\beta}\right)&&|E(X^2)\ Betaverteilung\\
+	&= N\left( N\textcolor{magenta}{\int_{0}^{1} t^2  \cdot B^{-1}(\alpha,\beta)t^{\alpha-1} \cdot (1-t)^{\beta-1} dt}-\dfrac{\alpha^2+\alpha}{(\alpha+\beta+1)(\alpha+\beta)}+\dfrac{\alpha}{\alpha+\beta}\right)&&|N\ rausziehen\\
+	&= N\left( \dfrac{N(\alpha^2+\alpha)}{(\alpha+\beta+1)(\alpha+\beta)}-\dfrac{\alpha^2+\alpha}{(\alpha+\beta+1)(\alpha+\beta)}+\dfrac{\alpha}{\alpha+\beta}\right)&&|E(X^2)\ Betaverteilung\\
+	&= N\left( \dfrac{N\alpha^2+N\alpha-\alpha^2-\alpha+\alpha(\alpha+\beta+1)}{(\alpha+\beta+1)(\alpha+\beta)}\right) &&|gemeinsamer\ Nenner\\
+	&= N\left( \dfrac{N\alpha^2+N\alpha-\alpha^2-\alpha+\alpha^2+\alpha\beta+\alpha}{(\alpha+\beta+1)(\alpha+\beta)}\right)&&|Ausmultiplizieren\\
+	&= N\left( \dfrac{N\alpha^2+N\alpha+\alpha\beta}{(\alpha+\beta+1)(\alpha+\beta)}\right)\\
+	Var(X)=E(X^2)-E^2(X) &= \dfrac{N^2\alpha^2+N^2\alpha+N\alpha\beta}{(\alpha+\beta+1)(\alpha+\beta)} - \left(\dfrac{N\alpha}{\alpha+\beta}\right)^2 && |Def.\ Varianz  \\
+	&= \dfrac{(N^2\alpha^2+N^2\alpha+N\alpha\beta)(\alpha+\beta)-N^2\alpha^2(\alpha+\beta+1)}{(\alpha+\beta+1)(\alpha+\beta)^2} && |gemeinsamer\ Nenner\\
+	&= \dfrac{N^2\alpha^3+N^2\alpha^2+N\alpha^2\beta+N^2\alpha^2\beta+N^2\alpha\beta+N\alpha\beta^2-N^2\alpha^3-N^2\alpha^2\beta-N^2\alpha^2}{(\alpha+\beta+1)(\alpha+\beta)^2} &&|Ausmultiplizieren\\
+	&=\dfrac{N\alpha^2\beta+N^2\alpha^2\beta+N\alpha\beta^2}{(\alpha+\beta+1)(\alpha+\beta)^2} &&|Kürzen\\
+	&=\dfrac{N\alpha\beta(\alpha+\beta+N}{(\alpha+\beta+1)(\alpha+\beta)^2}
+\end{align*}
 $$
 
 -------
