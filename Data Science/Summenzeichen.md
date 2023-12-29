@@ -21,8 +21,4 @@
    \sum_{{i=1}}^{n} i = \frac{{n \cdot (n + 1)}}{2}
    $$
 
-5. **Summe von Quadratzahlen**
-   $$
-   \sum_{{i=1}}^{n} i^2 = \frac{{n \cdot (n + 1) \cdot (2n + 1)}}{6}
-   $$
 #finished 

@@ -16,7 +16,7 @@
 ### [[Wahrscheinlichkeitsfunktion]]
 
 $$
-\forall x\in [0,1], \alpha\in \mathbb R_+, \beta \in \mathbb R_+:p_X(t|\alpha,\beta) =\int_{0}^{1}t \cdot B^{-1}(\alpha,\beta)t^{\alpha-1}(1-t)^{\beta-1}dt
+\forall x\in [0,1], \alpha\in \mathbb R_+, \beta \in \mathbb R_+:p_X(t|\alpha,\beta) =\int_{0}^{1} B^{-1}(\alpha,\beta)t^{\alpha-1}(1-t)^{\beta-1}dt
 $$
 
 ----------------

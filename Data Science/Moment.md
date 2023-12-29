@@ -7,8 +7,10 @@ $$E(X)= \sum_x x \cdot p_X(x)$$
 
 -------------------------------
 ### k-tes Moment der diskreten [[Zufallsvariable]] X
-$$\lambda_k(X) = \sum_xx^k \cdot p_X(x)$$
+$$E(X^k) = \sum_xx^k \cdot p_X(x)$$
+
 -----------------
+
 ### Beispiel X=Regen
 
 Ereignis | Wahrscheinlichkeit
@@ -35,6 +37,6 @@ $$\begin{align*}
     &= a\cdot E(X) + b \sum\limits_{x} p_{X}(x) &&|\text{Def. E(X)}\\
     &= a\cdot E(X) + b && |\sum\limits_{x} p_{X}(x) = 1
 \end{align*} $$
-
+* äquivalent zu absolut stetigen ZV mit Integralen statt [[Summenzeichen]]
 #finished 
 

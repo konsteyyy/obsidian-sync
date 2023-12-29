@@ -4,11 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "5b3ecfcfccc77674",
+        "id": "1f2c75959707db18",
         "type": "tabs",
         "children": [
           {
-            "id": "cb3b3bd1f72f1c9a",
+            "id": "5ecac08654a5b897",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Science/bivariat Gamma zu neg. Binomialverteilung.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1f50133d10f70cfc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,54 +32,19 @@
             }
           },
           {
-            "id": "062bca9311169912",
+            "id": "c878fa51ca9f5a11",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Science/Beta-Binomialverteilung.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2c054689b1989d45",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Science/Negative Binomialverteilung.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f94993607fdafc50",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Science/Gammaverteilung.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1ef643194d1420ab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Science/Summenzeichen.md",
+                "file": "Data Science/Betaverteilung.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -133,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Science/Beta-Binomialverteilung.md",
+                "file": "Data Science/Betaverteilung.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Science/Beta-Binomialverteilung.md",
+                "file": "Data Science/Betaverteilung.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Science/Beta-Binomialverteilung.md"
+                "file": "Data Science/Betaverteilung.md"
               }
             }
           }
@@ -194,71 +171,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "floating": {
-    "id": "3b5a746d39e04646",
-    "type": "floating",
-    "children": [
-      {
-        "id": "6f926bfd1b3a192f",
-        "type": "window",
-        "children": [
-          {
-            "id": "283acedcdc56da8f",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "18108448f8c23c88",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Data Science/Negative Binomialverteilung.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 4480,
-        "y": 0,
-        "width": 2520,
-        "height": 720,
-        "maximize": true,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "cb3b3bd1f72f1c9a",
+  "active": "c878fa51ca9f5a11",
   "lastOpenFiles": [
-    "Data Science/Negative Binomialverteilung.md",
     "Data Science/Beta-Binomialverteilung.md",
-    "Data Science/Gammaverteilung.md",
+    "Data Science/Parameterschätzung Poissonverteilung.md",
     "Data Science/Betaverteilung.md",
     "Data Science/Binomialverteilung.md",
+    "Data Science/Gammaverteilung.md",
+    "Data Science/Parameterschätzung Binomialverteilung.md",
+    "Data Science/bivariat Gamma zu neg. Binomialverteilung.md",
+    "Data Science/bivariat Beta zu Binomialverteilung.md",
+    "Konzepte Programmierung/ADT Haskell.md",
+    "Konzepte Programmierung/Auswertestrategien von Termen.md",
+    "Konzepte Programmierung/Haskell.md",
+    "Konzepte Programmierung/Muster.md",
+    "Grundlagen Informatik/ADT.md",
+    "Data Science/Negative Binomialverteilung.md",
     "Data Science/Poissonverteilung.md",
-    "Data Science/Moment.md",
-    "Data Science/Wahrscheinlichkeitsfunktion.md",
-    "Data Science/Verteilungsfunktion.md",
     "Data Science/Summenzeichen.md",
+    "Data Science/Varianz.md",
+    "Data Science/Verteilungsfunktion.md",
+    "Data Science/Wahrscheinlichkeitsfunktion.md",
+    "Data Science/Moment.md",
     "README.md",
     "Data Science/Untitled.md",
     "Data Science/Linearität Erwartungswert.md",
     "Konzepte Programmierung/Musterprüfung.md",
     "Datenstrukturen und eff. Algorithmen/Dynamische Programmierung.md",
-    "Konzepte Programmierung/Muster.md",
-    "Konzepte Programmierung/Haskell.md",
     "Konzepte Programmierung/Wert- und Funktionsdefinition.md",
-    "Konzepte Programmierung/Auswertestrategien von Termen.md",
-    "Konzepte Programmierung/ADT Haskell.md",
-    "Datenstrukturen und eff. Algorithmen/Laufzeit.md",
-    "Datenstrukturen und eff. Algorithmen/Lineare Suche.md",
-    "Datenstrukturen und eff. Algorithmen/Bubblesort.md",
-    "Datenstrukturen und eff. Algorithmen/Binäre Suche.md",
-    "Datenstrukturen und eff. Algorithmen/Quicksort.md",
-    "Datenstrukturen und eff. Algorithmen/Mergesort.md",
     "Bilder/Pasted image 20231015130113.png",
     "Bilder/Pasted image 20231015130042.png",
     "Bilder/Pasted image 20231014201043.png",
