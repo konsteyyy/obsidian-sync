@@ -13,12 +13,13 @@ $$
 \begin{align*}
     Likelihood:\\
     \forall \underline x \in \mathbb{N}^D: p_{\underline{X}|\Lambda}(\underline{x}|\lambda) &=\prod^N_{n=1}p_{X_n|\Lambda}(x_n|\lambda)\\
-    &=\prod^N_{n=1} \dfrac{\lambda^{x_n}}{x_n!}e^{-\lambda}\\
-\end{align*}$$
+    &=\prod^N_{n=1} \dfrac{\lambda^{x_n}}{x_n!}e^{-\lambda}
+\end{align*}
+$$
 $$
 \begin{align*}
-Loglikelihood:\\
- \forall \underline x \in \mathbb{N}^D: \ln p_{\underline{X}|\Theta}(\underline{x}|\theta) &=\ln \prod^N_{n=1} \dfrac{\lambda^{x_n}}{x_n!}e^{-\lambda}&&|Logarithmusgesetz: \; \ln ab = \ln a + \ln b \\
+	Loglikelihood:\\
+	\forall \underline x \in \mathbb{N}^D: \ln p_{\underline{X}|\Theta}(\underline{x}|\theta) &=\ln \prod^N_{n=1} \dfrac{\lambda^{x_n}}{x_n!}e^{-\lambda}&&|Logarithmusgesetz: \; \ln ab = \ln a + \ln b \\
 	&=\sum_{n=1}^N \left(\ln \lambda^{x_n} - \ln x_n! + \ln e^{-\lambda}  \right)&& |Linearität\ Summen\\
 	&= \sum_{n=1}^Mx_n \ln \lambda^{x_n}-\sum_{n=1}^N\ln x_n! +\sum_{n=1}^N\ln e^{-\lambda}&& |Logarithmusgesetz: \ln a^b = b \cdot \ln a \\
 	&= \sum_{n=1}^Mx_n \ln\lambda-\sum_{n=1}^N\ln x_n! - \lambda \sum_{n=1}^N\ln e && | \overline x = \dfrac 1 N\sum_{n=1}^Nx_n \Leftrightarrow N\overline x=\sum_{n=1}^Nx_n\\
@@ -26,13 +27,14 @@ Loglikelihood:\\
 \end{align*}$$
 $$
 \begin{align*}
-Loglikelihood\ ableiten:\\
-\dfrac{d\ln p_{\underline{X}|\Lambda}(\underline{x}|\lambda)}{d\theta} &=\dfrac{ N \overline x }{\lambda}-N\\
-0&\overset{!}{=}\dfrac{ N \overline x }{\lambda}-N&& | +N\\
-N&=\dfrac{N\overline x}{\lambda} && | \cdot \lambda\\
-N\lambda &= N \overline x && | : N\\
-\hat\lambda &= \overline x\\
-\end{align*}$$
+	Loglikelihood\ ableiten:\\
+	\dfrac{d\ln p_{\underline{X}|\Lambda}(\underline{x}|\lambda)}{d\theta} &=\dfrac{ N \overline x }{\lambda}-N\\
+	0&\overset{!}{=}\dfrac{ N \overline x }{\lambda}-N&& | +N\\
+	N&=\dfrac{N\overline x}{\lambda} && | \cdot \lambda\\
+	N\lambda &= N \overline x && | : N\\
+	\hat\lambda &= \overline x\\
+\end{align*}
+$$
 -------------------------
 
 #### MAP-Schätzer
@@ -80,7 +82,8 @@ $$
     \forall \lambda \in \mathbb{R}_+: \ln p_{\Lambda|\underline X}(\lambda|\underline x) &= \ln \beta'^{\alpha'} \Gamma^{-1}(\alpha') \lambda^{\alpha'-1}e^{-\beta'\lambda}\\
     &=\ln \beta'^{\alpha'} + \ln \Gamma^{-1}(\alpha') + \ln \lambda^{\alpha'-1} + \ln e^{-\beta'\lambda} &| \; Logarithmusgesetz: \; \ln ab = \ln a + \ln b\\
     &={\alpha'} \ln \beta' - \ln \Gamma(\alpha') + (\alpha'-1)\ln \lambda -\beta'\lambda & | \; Logarithmusgesetz: \ln a^b = b \cdot \ln a 
-\end{align*}$$
+\end{align*}
+$$
 $$
 \begin{align*}
     \text{Nun leiten wir ab und bedenken: } \dfrac{d}{dy}ln(y) = \dfrac{1}{y}\\
@@ -88,7 +91,8 @@ $$
     0 &\overset{!}{=} \dfrac{\alpha'-1}{\lambda} -1\\
     1 &= \dfrac{\alpha'-1}{\lambda}\\
     \hat{\lambda} &= \alpha'-1
-\end{align*}$$
+\end{align*}
+$$
 -------------------
 
 #### MP-Schätzer

@@ -126,14 +126,14 @@ $$
 ##### Log-A-Posteriori Funktion:
 $$
 \begin{align*}
-\forall \theta \in [0,1]: \ln p_{\Theta|\underline{X}}(\theta|\underline{x})  &= \ln \dfrac{1}{B(\alpha',\beta')} \theta^{\alpha'-1}(1-\theta)^{\beta'-1}\\
+	\forall \theta \in [0,1]: \ln p_{\Theta|\underline{X}}(\theta|\underline{x})  &= \ln \dfrac{1}{B(\alpha',\beta')} \theta^{\alpha'-1}(1-\theta)^{\beta'-1}\\
 	&= \ln \dfrac{1}{B(\alpha',\beta')} + \ln \theta^{\alpha'-1} + \ln (1-\theta)^{\beta'-1} & | \; Logarithmusgesetz: \; \ln ab = \ln a + \ln b\\
     &= \ln \dfrac{1}{B(\alpha',\beta')} + (\alpha'-1)\ln \theta + (\beta'-1)\ln (1-\theta) & | \; Logarithmusgesetz: \ln a^b = b \cdot \ln a 
 \end{align*}
 $$
 $$
 \begin{align*}
-\text{Nun leiten wir ab und bedenken: } \dfrac{d}{dy}ln(y) = \dfrac{1}{y}\\
+	\text{Nun leiten wir ab und bedenken: } \dfrac{d}{dy}ln(y) = \dfrac{1}{y}\\
     \dfrac{d}{d\theta} \ln p_{\Theta|\underline{X}}(\theta|\underline{x}) &= \dfrac{\alpha'-1}{\theta} - \dfrac{\beta'-1}{1-\theta}\\
     0 &\overset{!}{=} \dfrac{\alpha'-1}{\theta} - \dfrac{\beta'-1}{1-\theta}\\
     \dfrac{\alpha'-1}{\theta} &= \dfrac{\beta'-1}{1-\theta}\\
