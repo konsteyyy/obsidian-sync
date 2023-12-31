@@ -16,7 +16,7 @@
 ### [[Wahrscheinlichkeitsfunktion]]
 
 $$
-\forall x\in \mathbb R_+, \alpha\in \mathbb R_+, \beta \in \mathbb R_+:p_X(t|\alpha,\beta) = \beta^{\alpha} \cdot \Gamma^{-1}(\alpha) t^{\alpha-1} \cdot e^{-\beta t} dt
+\forall x\in \mathbb R_+, \alpha\in \mathbb R_+, \beta \in \mathbb R_+:p_X(t|\alpha,\beta) = \beta^{\alpha} \cdot \Gamma^{-1}(\alpha) t^{\alpha-1} \cdot e^{-\beta t}
 $$
 
 ----------------
