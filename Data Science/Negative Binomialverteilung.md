@@ -18,8 +18,8 @@ $$E(X) = \dfrac{\alpha \theta}{(1-\theta)}$$ #erwartungswert
 
 $$
 \begin{align*}
-    E(X) &= \sum_{x=0}^\infty xp_X(x|\alpha,\theta) \\
-    &= \sum_{x=0}^\infty x\dfrac{\Gamma(\alpha+x)}{\Gamma(\alpha)\Gamma(x+1)} \theta^x(1-\theta)^{\alpha} & | Def. Negative\ Binomialverteilungswahrscheinlichkeit\\
+	E(X) &= \sum_{x=0}^\infty xp_X(x|\alpha,\theta) \\
+	&= \sum_{x=0}^\infty x\dfrac{\Gamma(\alpha+x)}{\Gamma(\alpha)\Gamma(x+1)} \theta^x(1-\theta)^{\alpha} & | Def. Negative\ Binomialverteilungswahrscheinlichkeit\\
 	&= \sum_{\textcolor{magenta}{x=1}}^\infty x \dfrac{\Gamma(\alpha+x)}{\Gamma(\alpha)\Gamma(x+1)} \theta^x(1-\theta)^{\alpha} & | Indexverschiebung\ um\ 1\\
 	&= \sum_{x=1}^\infty \textcolor{magenta}x \dfrac{\Gamma(\alpha+x)}{\Gamma(\alpha)\textcolor{magenta}{x\Gamma(x)}} \theta^x(1-\theta)^{\alpha} & |\forall x\in\mathbb{R}:\Gamma(x+1)=x\Gamma(x)\\
 	&= \sum_{x=1}^\infty \ \dfrac{\Gamma(\alpha+x)}{\Gamma(\alpha)\Gamma(x)} \textcolor{magenta}\theta\theta^{x-1}(1-\theta)^{\alpha} & |a^x = aa^{x-1} \text{ und } kürzen\\

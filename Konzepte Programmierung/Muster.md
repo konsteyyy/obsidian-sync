@@ -1,20 +1,20 @@
 [[Haskell]]
 #### Bewachte Muster
 
-```hs
+```haskell
 summiere2 n | n==0 = 0
 			| n>=1 = n + summiere2 (n-1)
 ```
 
 #### If Else Then
-```hs
+```haskell
 summiere2 n = if n==0 
               then 0 
               else n+summiere2 (n-1)
 ```
 
 #### Case Of
-```hs
+```haskell
 0 dimtest::[Int]->String 
 1 dimtest x = case x of 
 2             []           -> "leere Liste" 

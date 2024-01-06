@@ -20,7 +20,7 @@ axioms
 
 wird in Haskell zu:
 
-```hs
+```haskell
 data Liste x = Nil | Cons x (Liste x) deriving Show
 append:: Liste x -> Liste x -> Liste x
 reverse:: Liste x -> Liste x
