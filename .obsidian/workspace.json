@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "331bbfb34b4140cf",
+        "id": "94192f2742a70bda",
         "type": "tabs",
         "children": [
           {
-            "id": "06a9451108fb39b5",
+            "id": "ed88065d396ee130",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -146,10 +146,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "06a9451108fb39b5",
+  "active": "ed88065d396ee130",
   "lastOpenFiles": [
-    "Data Science/Parameterschätzung Binomialverteilung.md",
+    "Untitled.md",
     "Data Science/Parameterschätzung Gaußverteilung.md",
+    "Datenstrukturen und eff. Algorithmen/Dynamische Programmierung.md",
+    "Datenstrukturen und eff. Algorithmen/Amortisierte Laufzeiten.md",
+    "Data Science/Parameterschätzung Binomialverteilung.md",
     "Data Science/Parameterschätzung Poissonverteilung.md",
     "Konzepte Programmierung/Generieren und Testen.md",
     "Konzepte Programmierung/Typklassen.md",
@@ -174,9 +177,6 @@
     "Konzepte Programmierung/Haskell.md",
     "Konzepte Programmierung/Musterprüfung.md",
     "Konzepte Programmierung/Prelude.md",
-    "Konzepte Programmierung/Wert- und Funktionsdefinition.md",
-    "Data Science/Gammaverteilung.md",
-    "Data Science/Negative Binomialverteilung.md",
     "Bilder/Pasted image 20231015130113.png",
     "Bilder/Pasted image 20231015130042.png",
     "Bilder/Pasted image 20231014201043.png",

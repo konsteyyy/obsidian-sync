@@ -1,12 +1,5 @@
 
-### Momentenschätzer $\hat \theta$
 
-$$\begin{align*}
-    E(X_1) &\overset{!}{=} \overline{x}\\
-    N \theta &\overset{!}{=} \overline{x} & | \; Erwartungswert \; Binomialverteilung\\
-    \hat{\theta} &\overset{!}{=} \dfrac{\overline{x}}{N}
-\end{align*}$$
----------------------
 
 #### ML-Schätzer für $\mu$
 $$
@@ -47,93 +40,45 @@ Loglikelihood\ nach\ \sigma^2 \ ableiten:\\
 \end{align*}$$
 ------------------------
 
-#### MAP-Schätzer
-
-Wichtige Regel: $\prod\limits_{n=1}^N \theta^{x_n}=\theta^{\sum_{n=1}^Nx_n}$
+#### MP-Schätzer
 
 ##### Prior [[Gaußverteilung]]:
-$p_M(\mu)=N(\mu|\mu_0,\sigma^2_0)=\dfrac{1}{(2\pi\sigma^2_0)^{1/2}}e^{-\dfrac{1}{2\sigma^2_0}(\mu-\mu_0)^2}$
+$p_M(\mu)=N(\mu|\mu_0,\sigma^2_0)\propto exp\{-\dfrac{1}{2\sigma^2_0}(\mu-\mu_0)^2\}$
 
+##### Likelihood:
+$p_{\underline X | M}(\underline x|\mu)\propto \prod\limits^N_{n=1}exp\{-\dfrac{1}{2 \sigma^2}(x_n-\mu)^2\}$
+
+##### Posterior:
 $$
 \begin{align*}
-gem. Wahrscheinlichkeitsdichten: \\
-p_{\underline X,M}(\underline x,\mu)&=p_{\underline X|M}(\underline x|\mu) \cdot p_M(\mu)\\
-&=\dfrac{1}{(2\pi\sigma^2)^{N/2}}\prod^N_{n=1}e^{-\dfrac{1}{2\sigma^2}(x_n-\mu)^2} \cdot \dfrac{1}{(2\pi\sigma^2_0)^{1/2}}e^{-\dfrac{1}{2\sigma^2_0}(\mu-\mu_0)^2}
+p_{M|\underline X}(\mu|\underline x)&=\dfrac{p_{\underline X|M}(\underline x|\mu) \cdot p_M(\mu)}{p_{\underline X}(\underline x)}\\
+&\propto p_{\underline X|M}(\underline x|\mu) \cdot p_M(\mu) &&|p_{\underline X}(\underline x)\ hängt\ nicht\ von\ \mu\ ab\\
+&=\prod^N_{n=1}exp\{-\dfrac{1}{2\sigma^2}(x_n-\mu)^2\} \cdot exp\{-\dfrac{1}{2\sigma^2_0}(\mu-\mu_0)^2\}
 \end{align*}
 $$
 
-$$
-\begin{align*}
-	Randwahrscheinlichkeiten: \\
-	p_{\underline X}(\underline x)&=\int^1_0 \dfrac{1}{(2\pi\sigma^2)^{N/2}}\prod^N_{n=1}e^{-\dfrac{1}{2\sigma^2}(x_n-\mu)^2} \cdot \dfrac{1}{(2\pi\sigma^2_0)^{1/2}}e^{-\dfrac{1}{2\sigma^2_0}(\mu-\mu_0)^2}\\
-	&=\int^1_0 \prod^M_{n=1}\left( \begin{array}{llll}
-	N\\
-	x_n\\
-	\end{array} \right) \theta^{x_n}(1-\theta)^{N-x_n}\cdot B^{-1}(\alpha,\beta)\theta^{\alpha-1}(1-\theta)^{\beta-1}d\theta &&|\prod_{n=1}^N \theta^{x_n}=\theta^{\sum_{n=1}^Nx_n}\\
-	&= \prod^M_{n=1}\left( \begin{array}{llll}
-	N\\
-	x_n\\
-	\end{array} \right) \int^1_0 \dfrac{\theta^{\alpha +M \overline x-1}(1-\theta)^{\beta+N-M \overline x-1}}{B(\alpha,\beta)}d\theta\\
-	&= \prod^M_{n=1}\left( \begin{array}{llll}
-	N\\
-	x_n\\
-	\end{array} \right)B^{-1}(\alpha,\beta) \int^1_0 \theta^{\alpha +M \overline x-1}(1-\theta)^{\beta+N-M \overline x-1}d\theta\\
-	&= \prod^M_{n=1}\left( \begin{array}{llll}
-	N\\
-	x_n\\
-	\end{array} \right)B^{-1}(\alpha,\beta) \int^1_0 \dfrac{B(\alpha+M\overline x,\beta+N-M\overline x)}{B(\alpha+M\overline x, \beta+N-M\overline x)}\theta^{\alpha +M \overline x-1}(1-\theta)^{\beta+N-M \overline x-1}d\theta\\
-	&= \prod^M_{n=1}\left( \begin{array}{llll}
-	N\\
-	x_n\\
-	\end{array} \right)\dfrac{B(\alpha+M\overline x,\beta+N-M\overline x)}{B(\alpha,\beta)} \int^1_0 {\dfrac{\theta^{\alpha +M \overline x-1}(1-\theta)^{\beta+N-M \overline x-1}}{B(\alpha+M\overline x, \beta+N-M\overline x)}d\theta}&&|Substitution: \alpha'=\alpha+M\overline x;\ \beta'=\beta+N-M\overline x\\
-	&= \prod^M_{n=1}\left( \begin{array}{llll}
-	N\\
-	x_n\\
-	\end{array} \right)\dfrac{B(\alpha',\beta')}{B(\alpha,\beta)}  \textcolor{magenta}{\int^1_0\dfrac{\theta^{\alpha'}(1-\theta)^{\beta'}}{B(\alpha', \beta')}d\theta}\\
-	&= \prod^M_{n=1}\left( \begin{array}{llll}
-	N\\
-	x_n\\
-	\end{array} \right)\dfrac{B(\alpha',\beta')}{B(\alpha,\beta)}
-\end{align*}
-$$
- 
-$$
-\begin{align*}
-Posterior: \\
-p_{\Theta| \underline X}(\theta|\underline x)&=\dfrac{p_{\underline X,\Theta}(\underline x,\theta)}{p_{\underline X}(\underline x)}\\
-&= \dfrac{\prod\limits^M_{n=1}\left( \begin{array}{llll}
-	N\\
-	x_n\\
-	\end{array} \right) \theta^{x_n}(1-\theta)^{N-x_n}\cdot B^{-1}(\alpha,\beta)\theta^{\alpha-1}(1-\theta)^{\beta-1}d\theta}{\prod\limits^M_{n=1}\left( \begin{array}{llll}
-	N\\
-	x_n\\
-	\end{array} \right)\dfrac{B(\alpha',\beta')}{B(\alpha,\beta)}}\\
-	&=\dfrac{\theta^{M\overline x}(1-\theta)^{N-M\overline x}\theta^{\alpha-1}(1-\theta)^{\beta-1}}{B(\alpha',\beta')}\\
-	&=\dfrac{\theta^{\alpha'-1}(1-\theta)^{\beta'-1}}{B(\alpha',\beta')}
-\end{align*}
-$$
 ##### Log-A-Posteriori Funktion:
 $$
 \begin{align*}
-	\forall \theta \in [0,1]: \ln p_{\Theta|\underline{X}}(\theta|\underline{x})  &= \ln \dfrac{1}{B(\alpha',\beta')} \theta^{\alpha'-1}(1-\theta)^{\beta'-1}\\
-	&= \ln \dfrac{1}{B(\alpha',\beta')} + \ln \theta^{\alpha'-1} + \ln (1-\theta)^{\beta'-1} & | \; Logarithmusgesetz: \; \ln ab = \ln a + \ln b\\
-    &= \ln \dfrac{1}{B(\alpha',\beta')} + (\alpha'-1)\ln \theta + (\beta'-1)\ln (1-\theta) & | \; Logarithmusgesetz: \ln a^b = b \cdot \ln a 
+	\forall \mu \in \mathbb R: \ln p_{M|\underline X}(\mu|\underline x) &= \ln \prod^N_{n=1}exp\{-\dfrac{1}{2\sigma^2}(x_n-\mu)^2\} \cdot exp\{-\dfrac{1}{2\sigma^2_0}(\mu-\mu_0)^2\}\\
+	&= \sum^N_{n=1}\ln exp\{-\dfrac{1}{2\sigma^2}(x_n-\mu)^2\} + \ln exp\{-\dfrac{1}{2\sigma^2_0}(\mu-\mu_0)^2\} && | \; Logarithmusgesetz: \; \ln ab = \ln a + \ln b\\
+    &= \sum^N_{n=1}-\dfrac{1}{2\sigma^2}(x_n-\mu)^2   -\dfrac{1}{2\sigma^2_0}(\mu-\mu_0)^2 && | \ \ln e^x = x\\
+    &=\sum^N_{n=1}-\dfrac{\tau}{2}(x_n-\mu)^2   -\dfrac{\tau_0}{2}(\mu-\mu_0)^2 && |\ \tau=\dfrac{1}{\sigma^2}\ und\ \tau_0=\dfrac{1}{\sigma^2_0}\\
+    &=-\dfrac{\tau}{2}\sum^N_{n=1}(x_n^2-2x_n \mu + \mu^2)   -\dfrac{\tau_0}{2}(\mu^2-2\mu\mu_0+\mu_0^2) \\
+    &=-\dfrac{\tau}{2}\sum^N_{n=1}x_n^2+\dfrac{\tau}{2}\sum^N_{n=1}2x_n \mu -\dfrac{\tau}{2}\sum^N_{n=1} \mu^2  -\dfrac{\tau_0}{2}\mu^2+\dfrac{\tau_0}{2}2\mu\mu_0+\dfrac{\tau_0}{2}\mu_0^2 && |Ausmultiplizieren\\
+    &=-\dfrac{\tau}{2}\sum^N_{n=1}x_n^2+\dfrac{\tau}{2}2N\overline x \mu -\dfrac{\tau}{2}N\mu^2  -\dfrac{\tau_0}{2}\mu^2+\dfrac{\tau_0}{2}2\mu\mu_0+\dfrac{\tau_0}{2}\mu_0^2\\
+    &=\mu^2\left(-\dfrac{\tau}{2}N-\dfrac{\tau_0}{2} \right) + \mu\left(\tau N \overline x + \tau_0\mu_0 \right)+\dfrac{\tau_0}{2}\mu_0^2 - \dfrac{\tau}{2}\sum^N_{n=1}x_n^2 && | nach\ \mu\ ausklammern\\
+    a=-\dfrac{\tau}{2}N-\dfrac{\tau_0}{2} ;\ & b=\tau N \overline x + \tau_0\mu_0;\ c=\dfrac{\tau_0}{2}\mu_0^2 - \dfrac{\tau}{2}\sum^N_{n=1}x_n^2\\
+    &=a\mu^2+b\mu+c &&| Substitution\\
+    &=a(\mu^2+\dfrac{b}{a}\mu)+c\\
+    &=a(\mu^2+\dfrac{b}{a}\mu+\dfrac{b}{2a}-\dfrac{b}{2a})+c\\
+    &=a(\mu+\dfrac{b}{2a})^2-\dfrac{b^2}{4a^2}+c\\
+    &=\left(-\dfrac{\tau}{2}N-\dfrac{\tau_0}{2}\right)\left(\mu +  \dfrac{\tau N \overline x + \tau_0\mu_0}{-\dfrac{\tau}{2}N-\dfrac{\tau_0}{2}}\right)^2-\dfrac{(\tau N \overline x + \tau_0\mu_0)^2}{4 \cdot(-\dfrac{\tau}{2}N-\dfrac{\tau_0}{2})^2}+c\\
+    &=\left(-\dfrac{1}{2}(\tau N+\tau_0)\right)\left(\mu -  \dfrac{2\tau N \overline x + \tau_0\mu_0}{\tau N+\tau_0}\right)^2- c'&&| c' = \dfrac{(\tau N \overline x + \tau_0\mu_0)^2}{4 \cdot(-\dfrac{\tau}{2}N-\dfrac{\tau_0}{2})^2}+c
 \end{align*}
 $$
-$$
-\begin{align*}
-	\text{Nun leiten wir ab und bedenken: } \dfrac{d}{dy}ln(y) = \dfrac{1}{y}\\
-    \dfrac{d}{d\theta} \ln p_{\Theta|\underline{X}}(\theta|\underline{x}) &= \dfrac{\alpha'-1}{\theta} - \dfrac{\beta'-1}{1-\theta}\\
-    0 &\overset{!}{=} \dfrac{\alpha'-1}{\theta} - \dfrac{\beta'-1}{1-\theta}\\
-    \dfrac{\alpha'-1}{\theta} &= \dfrac{\beta'-1}{1-\theta}\\
-    (\alpha'-1)(1-\theta) &= (\beta'-1) \theta & | \; Ausmultiplizieren\\
-    \alpha' - \alpha' \theta -1 + \theta &= \beta' \theta - \theta\\
-    \alpha' -1 &= \beta' \theta - \theta + \alpha' \theta - \theta\\
-    &= \theta ( \beta' + \alpha' -2)\\
-    \hat \theta &= \dfrac{\alpha'-1}{\alpha'+\beta'-2}\\
-\end{align*}
-$$
+
 ------------
 
 #### MP-Schätzer
-$$\hat{\theta} = E(\theta|\underline x) = \dfrac{\alpha'}{\alpha'+\beta'}$$
+$$\hat{\mu} = E(\mu|\underline x) = \dfrac{2\tau N \overline x + \tau_0\mu_0}{\tau N+\tau_0}$$
