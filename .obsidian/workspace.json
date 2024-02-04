@@ -4,18 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "94192f2742a70bda",
+        "id": "514c3de6fc5d0ffc",
         "type": "tabs",
         "children": [
           {
-            "id": "ed88065d396ee130",
+            "id": "ab0dca13379b704c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Data Science/Parameterschätzung Gaußverteilung.md",
-                "mode": "source",
-                "source": false
+                "file": "Bilder/Pasted image 20240131160901.png"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Science/Parameterschätzung Gaußverteilung.md",
+                "file": "Bilder/Pasted image 20240131160901.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Science/Parameterschätzung Gaußverteilung.md",
+                "file": "Bilder/Pasted image 20240131160901.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Science/Parameterschätzung Gaußverteilung.md"
+                "file": "Bilder/Pasted image 20240131160901.png"
               }
             }
           }
@@ -134,7 +132,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 405.5
+    "width": 405.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -146,44 +145,46 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ed88065d396ee130",
+  "active": "65da221529649c9f",
   "lastOpenFiles": [
-    "Untitled.md",
-    "Data Science/Parameterschätzung Gaußverteilung.md",
-    "Datenstrukturen und eff. Algorithmen/Dynamische Programmierung.md",
-    "Datenstrukturen und eff. Algorithmen/Amortisierte Laufzeiten.md",
-    "Data Science/Parameterschätzung Binomialverteilung.md",
-    "Data Science/Parameterschätzung Poissonverteilung.md",
+    "Konzepte Programmierung/Strukturelle Induktion zip.md",
+    "Konzepte Programmierung/Strukturelle Induktion foldr.md",
+    "Konzepte Programmierung/Sequenzen-Kalkül.md",
+    "Konzepte Programmierung/SatherK.md",
+    "Konzepte Programmierung/Module Haskell.md",
+    "Konzepte Programmierung/Kern-Ableitungsfunktion.md",
+    "Konzepte Programmierung/Haskell.md",
+    "Konzepte Programmierung/ggT.md",
     "Konzepte Programmierung/Generieren und Testen.md",
+    "Konzepte Programmierung/Eratosthenes.md",
+    "Konzepte Programmierung/ADT Schlange.md",
+    "Bilder/Pasted image 20240203170548.png",
+    "Konzepte Programmierung/Weitere Funktionen.md",
+    "Konzepte Programmierung/Überladen von Funktionen.md",
+    "Datenstrukturen und eff. Algorithmen/Dynamische Programmierung.md",
+    "Konzepte Programmierung/Terminierung.md",
+    "Konzepte Programmierung/Wert- und Funktionsdefinition.md",
+    "Konzepte Programmierung/Verifikation.md",
     "Konzepte Programmierung/Typklassen.md",
+    "Konzepte Programmierung/Typinferenz Haskell.md",
     "Konzepte Programmierung/Transponierte Matrix Haskell.md",
-    "Konzepte Programmierung/digits2int.md",
+    "Konzepte Programmierung/Prelude.md",
+    "Konzepte Programmierung/Polymorphie Haskell.md",
+    "Bilder/Pasted image 20240201132623.png",
+    "Konzepte Programmierung/Musterprüfung.md",
+    "Konzepte Programmierung/Muster.md",
     "Konzepte Programmierung/Listenbeschreibungen.md",
     "Konzepte Programmierung/Funktionen höherer Ordnung.md",
-    "Konzepte Programmierung/Module Haskell.md",
-    "Konzepte Programmierung/ADT Schlange.md",
-    "Konzepte Programmierung/ggT.md",
-    "Konzepte Programmierung/Verifikation.md",
-    "[.md",
-    "Konzepte Programmierung/ADT Liste.md",
-    "README.md",
-    "Konzepte Programmierung/Strukturelle Induktion zip.md",
-    "Konzepte Programmierung/Muster.md",
-    "Konzepte Programmierung/Strukturelle Induktion foldr.md",
-    "Bilder/Pasted image 20240103123525.png",
-    "Bilder/Pasted image 20240103123515.png",
-    "Bilder/Pasted image 20240103123327.png",
-    "Konzepte Programmierung/Auswertestrategien von Termen.md",
-    "Konzepte Programmierung/Haskell.md",
-    "Konzepte Programmierung/Musterprüfung.md",
-    "Konzepte Programmierung/Prelude.md",
-    "Bilder/Pasted image 20231015130113.png",
-    "Bilder/Pasted image 20231015130042.png",
-    "Bilder/Pasted image 20231014201043.png",
-    "Bilder/Pasted image 20231014200511.png",
+    "Bilder/Pasted image 20240131163532.png",
+    "Bilder/Pasted image 20240131163151.png",
+    "Bilder/Pasted image 20240131162059.png",
+    "Bilder/Pasted image 20240131162024.png",
+    "Bilder/Pasted image 20240131162007.png",
+    "Bilder/Pasted image 20240131161624.png",
+    "Bilder/Pasted image 20240131161604.png",
+    "Bilder/Pasted image 20240131161346.png",
     "Untitled",
     "Data Science",
-    "Bilder/fibonacci_berechnungsbaum.png",
     "Bilder",
     "MLU",
     "Konzepte Programmierung",
